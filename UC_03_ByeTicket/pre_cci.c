@@ -2602,9 +2602,7 @@ vuser_init()
 
 # 1 "ByeTicket.c" 1
 ByeTicket()
-{
- 
-	
+{	
 	lr_start_transaction("ByeTicket");
 	
 	

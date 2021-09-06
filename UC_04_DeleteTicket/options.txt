@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\getay\Documents\VuGen\Scripts\UC_04_DeleteTicket
+-ID:\LoadRunner\include
+-ec:\users\getay\documents\vugen\scripts\uc_04_deleteticket\\logfile.log
+c:\users\getay\documents\vugen\scripts\uc_04_deleteticket\\combined_UC_04_DeleteTicket.c
+c:\users\getay\documents\vugen\scripts\uc_04_deleteticket\\pre_cci.c

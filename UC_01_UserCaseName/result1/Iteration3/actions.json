@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "UserCaseName",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t2.inf",
+                "time": 1630929466501
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1630929466993
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t4.inf",
+                "time": 1630929467471
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "home_page",
+                "rawStartTime": 1630929466014,
+                "rawEndTime": 1630929466514,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03532743453979492
+            },
+            {
+                "transactionName": "logon",
+                "rawStartTime": 1630929466530,
+                "rawEndTime": 1630929466996,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03523540496826172
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1630929467012,
+                "rawEndTime": 1630929467477,
+                "thinkTime": 0.0,
+                "wastedTime": 0.027957916259765626
+            },
+            {
+                "transactionName": "UserCaseName",
+                "rawStartTime": 1630929465998,
+                "rawEndTime": 1630929467492,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09852075576782227
+            }
+        ]
+    }
+]

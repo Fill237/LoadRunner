@@ -1,4 +1,4 @@
-"firstName=Jojo&lastName=Bean&address1=Postland&address2=Denver&pass1=Jojo+Bean&creditCard=1234"
-"5678&expDate=09%2F19&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFlight=220%3B0%3"
-"B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFlights.y="
-"11&.cgifields=saveCC"
+"firstName=Alex&lastName=Norman&address1=Vermont&address2=Brussels&pass1=Alex+Norman&creditCard"
+"=87654321&expDate=05%2F22&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFlight=140%"
+"3B241%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFli"
+"ghts.y=11&.cgifields=saveCC"

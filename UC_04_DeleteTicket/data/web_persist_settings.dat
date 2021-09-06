@@ -1,0 +1,25 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2021/09/05 15:02:33
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2021/09/05 15:04:59
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2021/09/05 15:05:36
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2021/09/05 15:12:24
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2021/09/05 15:17:38
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2021/09/05 15:21:51
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2021/09/05 15:23:09
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2021/09/05 15:32:01
+StartRecordingIsDst_8=0
+StartRecordingGMT_9=2021/09/03 09:57:24
+StartRecordingIsDst_9=0
+[UserHomePage]
+UserHomePage=https://www.yandex.ru/?win=367&clid=2256428-306
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.84
+[Security]
+UsingPersistForAuthentication=1

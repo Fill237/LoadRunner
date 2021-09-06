@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\getay\Documents\VuGen\Scripts\01_UC
+-IC:\Users\getay\Documents\VuGen\Scripts\UC_01_UserCaseName
 -ID:\LoadRunner\include
--ec:\users\getay\documents\vugen\scripts\01_uc\\logfile.log
-c:\users\getay\documents\vugen\scripts\01_uc\\combined_01_UC.c
-c:\users\getay\documents\vugen\scripts\01_uc\\pre_cci.c
+-ec:\users\getay\documents\vugen\scripts\uc_01_usercasename\\logfile.log
+c:\users\getay\documents\vugen\scripts\uc_01_usercasename\\combined_UC_01_UserCaseName.c
+c:\users\getay\documents\vugen\scripts\uc_01_usercasename\\pre_cci.c

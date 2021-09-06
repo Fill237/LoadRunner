@@ -4,5 +4,5 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 Accept: */*
 Proxy-Connection: Keep-Alive
 Host: 127.0.0.1:1080
-Cookie: MSO=SID&1630848103; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Cookie: MSO=SID&1630929463; MTUserInfo=firstName&Jojo&address2&Berlin&username&jojo&hash&47&lastName&Bean%0A&address1&Silver%20Hill&creditCard&&expDate&%0A
 

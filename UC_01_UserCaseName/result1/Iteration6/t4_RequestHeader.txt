@@ -1,0 +1,8 @@
+GET http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Accept: */*
+Proxy-Connection: Keep-Alive
+Host: 127.0.0.1:1080
+Cookie: MSO=SID&1630929470; MTUserInfo=firstName&Ann&address2&Lome&username&jojo5&hash&85&lastName&Robinson%0A&address1&Line%20Store&creditCard&&expDate&%0A
+

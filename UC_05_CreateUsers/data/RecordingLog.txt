@@ -1,0 +1,307 @@
+[API Trapper      (1648: 884)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1c24:2f80)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (2728:1c84)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2728:21fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2728:21fc)] Load Network Traffic Analyzers:
+[Network Analyzer (2728:21fc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2728:21fc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2728:21fc)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2728:21fc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2728:21fc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2728:21fc)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2728:21fc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2728:3488)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[API Trapper      ( b94:31cc)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 74.125.131.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Web Request      (2728:3488)] "GET /WebTours/"   
+[Network Analyzer (2728:3488)]   (Sid:  2) Client -> Server @ : 818 bytes (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 178.62.247.171:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid:  2) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 74.125.205.84:443   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2728:3488)] "GET /api/v1/"   
+[Network Analyzer (2728:3488)]   (Sid:  3) Client -> Server @ : 363 bytes (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2728:3f70)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:286c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid:  3) Server -> Client : 5292 bytes  (Service=HTTP)
+[Network Analyzer (2728:3f70)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 91.228.153.235:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:2ccc)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 91.228.153.235:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 91.228.153.235:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[API Trapper      (26b0:3988)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 91.228.153.235:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2728:42fc)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:42fc)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:1b8c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:1b8c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728: a88)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728: a88)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:2218)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:2218)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (3c3c:225c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2728:3488)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 104.21.86.102:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2728:3488)] "GET /WebTours/header.html"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 855 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728: a08)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 142.251.1.188:5228   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2728: a08)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 209.85.233.94:443   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (2728:3488)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 766 bytes (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 91.228.153.235:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2728:3d54)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 1026 bytes  (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 173.194.221.97:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2728:3d54)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:142c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:142c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.165.138:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 13.36.218.177:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2728:4144)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:4144)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728: 7ec)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728: 944)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728: 7ec)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 54.158.61.242:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:212c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 54.158.61.242:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2728:212c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:286c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:2ccc)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (2728:3488)] "GET /eapi/urls"   
+[Network Analyzer (2728:3488)]   (Sid:  7) Client -> Server @ : 1608 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=93"   
+[Network Analyzer (2728:3488)]   (Sid:  1) Client -> Server @ : 448 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  4) Client -> Server @ : 2564 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /docs/common/netcheck.gif?zx=jhukt7w31zli"   
+[Network Analyzer (2728:3488)]   (Sid:  6) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/settings?version-ext=2.10.49"   
+[Network Analyzer (2728:3488)]   (Sid:  8) Client -> Server @ : 1632 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/user?locale=ru_RU"   
+[Network Analyzer (2728:3488)]   (Sid:  9) Client -> Server @ : 1621 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/shops-promo-code"   
+[Network Analyzer (2728:3488)]   (Sid: 10) Client -> Server @ : 1639 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (2728:3488)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /api/config/index.php"   
+[Network Analyzer (2728:3488)]   (Sid: 11) Client -> Server @ : 835 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  6) Server -> Client : 755 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  1) Server -> Client : 181 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/simple-similar/offers"   
+[Network Analyzer (2728:3488)]   (Sid: 15) Client -> Server @ : 1687 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /r/__utm.gif?utmwv=5.7.2&utms=3&utmn=818191569&utmhn=lbdmhpkmonokeldelekgfefldfboblbj&utmcs=UTF-8&utmsr=1280x720&utmsc=24-bit&utmul=ru-ru&utmje=0&utmfl=-&utmhid=429034566&utmr=-&utmp=%2F_generated_background_page.html&utmht=1630915372921&utmac=UA-71144624-3&utmcc=__utma%3D232062018.401641172.1581843634.1630868717.1630912860.426%3B%2B__utmz%3D232062018.1581843634.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1093217763&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAgAAE~"   
+[Network Analyzer (2728:3488)]   (Sid: 16) Client -> Server @ : 1058 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 13) Client -> Server @ : 154 bytes (SSL)
+[Network Analyzer (2728: 944)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (2728:3488)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s04921498308363?AQB=1&ndh=1&pf=1&t=6%2F8%2F2021%2011%3A2%3A53%201%20-180&fid=00190F6285391DEA-2DA511AB47960F68&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.6&v2=sideload&v3=prod&v4=not_set&s=1280x720&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1"   
+[Network Analyzer (2728:3488)]   (Sid: 18) Client -> Server @ : 1006 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  4) Server -> Client : 1670 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  4) Server -> Client : 259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  7) Server -> Client : 435 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 14) Client -> Server @ : 1193 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  4) Server -> Client : 24 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  8) Server -> Client : 1314 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "POST /service/update2/json?cup2key=11:1549708085&cup2hreq=68d9752f84e9ca569ba23f5692de205922931dfa60fc82b789060196b4f96e47"   
+[Network Analyzer (2728:3488)]   (Sid: 14) Client -> Server @ : 5773 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=93.0.4577.63&lang=ru&acceptformat=crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dfefbhlbobhfkcmfdgmdnjbaaegnhoefp%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DSQJL%26ping%3Dr%253D14%2526e%253D1&x=id%3Dachbnjfnclogjcmjllgdjgdgmpfjiejk%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DSQJL%26ping%3Dr%253D14%2526e%253D1"   
+[Network Analyzer (2728:3488)]   (Sid: 17) Client -> Server @ : 1061 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 10) Server -> Client : 1410 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 16) Server -> Client : 449 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  9) Server -> Client : 1606 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 13) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (2728:3488)]   (Sid: 11) Server -> Client : 783 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 13) Server -> Client : 65 bytes (SSL)
+[Network Analyzer (2728:3488)]   (Sid: 13) Server -> Client : 38 bytes (SSL)
+[Network Analyzer (2728:3488)]   (Sid: 18) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s09627018548720?AQB=1&ndh=1&pf=1&t=6%2F8%2F2021%2011%3A2%3A53%201%20-180&fid=00190F6285391DEA-2DA511AB47960F68&ce=UTF-8&pageName=DCBrowserExt%3AExtension%3AStartup%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.6&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (2728:3488)]   (Sid: 18) Client -> Server @ : 966 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 17) Server -> Client : 835 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 17) Server -> Client : 379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 17) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 14) Server -> Client : 1831 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 1998 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 18) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728: 584)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728: 584)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 54.197.167.246:443   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (2728:3488)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 779 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /WebTours/home.html"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 875 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /check?os=win&hw=1&install_date=2019-05-13&ir=31&gv=8.5.8&ua=chrome&lc=1626443154&v=1297&l=ru&ss=free"   
+[Network Analyzer (2728:3488)]   (Sid: 19) Client -> Server @ : 515 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 193 bytes  (Service=HTTP)
+[Web Request      (2728:3488)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s0755882058264?AQB=1&ndh=1&pf=1&t=6%2F8%2F2021%2011%3A2%3A53%201%20-180&fid=00190F6285391DEA-2DA511AB47960F68&ce=UTF-8&pageName=DCBrowserExt%3AOS%3Awin%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.2.6&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (2728:3488)]   (Sid: 18) Client -> Server @ : 954 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/user/notifications?locale=ru_RU"   
+[Network Analyzer (2728:3488)]   (Sid: 15) Client -> Server @ : 1635 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/dd-list?locale=ru_RU"   
+[Network Analyzer (2728:3488)]   (Sid:  9) Client -> Server @ : 1624 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 18) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 1756 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  9) Server -> Client : 470 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 1343 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 19) Server -> Client : 257 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:1fc0)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 34.232.40.105:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2728:1fc0)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (2728:3488)] "GET /eapi/promo-notifications?locale=ru_RU"   
+[Network Analyzer (2728:3488)]   (Sid: 15) Client -> Server @ : 1698 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /abtestcheck?os=win&install_date=2019-05-13&ir=31&gv=8.5.8&si=0&ua=chrome&v=1297&l=ru"   
+[Network Analyzer (2728:3488)]   (Sid: 20) Client -> Server @ : 499 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /favicon.ico"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 644 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/simple-similar/offers"   
+[Network Analyzer (2728:3488)]   (Sid:  9) Client -> Server @ : 1687 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 748 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.165.194:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 20) Server -> Client : 257 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  9) Server -> Client : 1998 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (2728:3488)] "GET /eapi/user/partner-system"   
+[Network Analyzer (2728:3488)]   (Sid:  9) Client -> Server @ : 1685 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /eapi/shops?locale=ru_RU&version-ext=2.10.49&delivery_country=RU"   
+[Network Analyzer (2728:3488)]   (Sid: 15) Client -> Server @ : 1662 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:413c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:413c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:3488)]   (Sid:  9) Server -> Client : 836 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "GET /config"   
+[Network Analyzer (2728:3488)]   (Sid: 21) Client -> Server @ : 397 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.165.194:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 64.233.165.194:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 21) Server -> Client : 188 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:2054)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 4938 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:2054)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:267c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:267c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:393c)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:393c)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728: 854)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728: 854)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728: dd0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728: dd0)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (2728:3488)] "GET /eapi/user/lety-codes?locale=ru_RU"   
+[Network Analyzer (2728:3488)]   (Sid: 15) Client -> Server @ : 1632 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "GET /config?fields=ts"   
+[Network Analyzer (2728:3488)]   (Sid: 22) Client -> Server @ : 404 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /document/sync/get?token=AC4w5Vheh_4zwnH3vFBV49XP4u54pkIpQQ%3A1630659417933"
+[Network Analyzer (2728:3488)]   (Sid: 23) Client -> Server @ : 1322 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /oauth2/v4/token"   
+[Network Analyzer (2728:3488)]   (Sid: 24) Client -> Server @ : 721 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /drawings/sync/get?token=AC4w5Vheh_4zwnH3vFBV49XP4u54pkIpQQ%3A1630659417933"
+[Network Analyzer (2728:3488)]   (Sid: 25) Client -> Server @ : 1322 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /presentation/sync/get?token=AC4w5Vheh_4zwnH3vFBV49XP4u54pkIpQQ%3A1630659417933"
+[Network Analyzer (2728:3488)]   (Sid: 26) Client -> Server @ : 1326 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 23) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 25) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 26) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 23) Client -> Server @ : 14976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 25) Client -> Server @ : 14976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 26) Client -> Server @ : 14976 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 24) Server -> Client : 930 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 15) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 22) Server -> Client : 300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 173.194.73.100:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2728:3488)]   (Sid: 25) Server -> Client : 1926 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 26) Server -> Client : 2205 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 23) Server -> Client : 2300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728: bb4)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728: bb4)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (2728:21fc)] Address lookup for DESKTOP-CTO52DG = 192.168.1.24
+[Network Analyzer (2728:3488)]   (Sid: 27) Client -> Server @ : 996 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=NxX8AEHNVoWWdHPP9Mw5og%3D%3D"   
+[Network Analyzer (2728:3488)]   (Sid: 27) Client -> Server @ : 1346 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:21fc)] Request Connection: Remote Server @ 74.125.205.94:443   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (2728:3488)] "GET /WebTours/"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2728:26cc)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (2728:26cc)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (2728:3488)] "GET /WebTours/header.html"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 855 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 766 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 1025 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 27) Server -> Client : 2545 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 779 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /WebTours/home.html"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 875 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 27) Client -> Server @ : 996 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=NxX8AEHNVoWWdHPP9Mw5og%3D%3D"   
+[Network Analyzer (2728:3488)]   (Sid: 27) Client -> Server @ : 1225 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 1757 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 27) Server -> Client : 1094 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 22) Client -> Server @ : 650 bytes (SSL)(Service=HTTP)
+[Web Request      (2728:3488)] "POST /"   
+[Network Analyzer (2728:3488)]   (Sid: 22) Client -> Server @ : 1040 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 22) Server -> Client : 101 bytes (SSL) (Service=HTTP)
+[Web Request      (2728:3488)] "GET /WebTours/"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 193 bytes  (Service=HTTP)
+[Web Request      (2728:3488)] "GET /WebTours/header.html"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 855 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 766 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 1025 bytes  (Service=HTTP)
+[Web Request      (2728:3488)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2728:3488)]   (Sid: 12) Client -> Server @ : 779 bytes (Service=HTTP)
+[Web Request      (2728:3488)] "GET /WebTours/home.html"   
+[Network Analyzer (2728:3488)]   (Sid:  5) Client -> Server @ : 875 bytes (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid:  5) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (2728:3488)]   (Sid: 12) Server -> Client : 1756 bytes  (Service=HTTP)
