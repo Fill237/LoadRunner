@@ -57,7 +57,7 @@ MercIniTreeSons="CreateUsers"
 Name="Run"
 RunLogicActionOrder="CreateUsers"
 RunLogicActionType="VuserRun"
-RunLogicNumOfIterations="11"
+RunLogicNumOfIterations="1"
 RunLogicObjectKind="Group"
 RunLogicRunMode="Sequential"
 [RunLogicRunRoot:CreateUsers]

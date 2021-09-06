@@ -1,8 +1,8 @@
 [parameter:ArrData]
 Format="%d/%m/%Y"
 GenerateNewVal="EachOccurrence"
-Offset=""
-OffsetUI="0"
+Offset="86400"
+OffsetUI="86400"
 OriginalValue=""
 ParamName="ArrData"
 Type="Time"

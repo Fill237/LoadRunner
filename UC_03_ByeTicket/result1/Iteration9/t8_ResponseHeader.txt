@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 06 Sep 2021 14:07:58 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 05 Sep 2021 14:07:58 GMT
+Set-Cookie: MTUserInfo=firstName&Anabel&username&jojo8&address2&St.%20Johns&hash&88&address1&Vermont&lastName&Hicks%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

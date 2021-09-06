@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "ByeTicket",
+        "steps": [
+            {
+                "stepId": "STEP41",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t2.inf",
+                "time": 1630937269277
+            },
+            {
+                "stepId": "STEP42",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1630937269647
+            },
+            {
+                "stepId": "STEP43",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1630937269894
+            },
+            {
+                "stepId": "STEP44",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1630937270096
+            },
+            {
+                "stepId": "STEP45",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1630937270273
+            },
+            {
+                "stepId": "STEP46",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1630937270472
+            },
+            {
+                "stepId": "STEP47",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1630937270740
+            },
+            {
+                "stepId": "STEP48",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t10.inf",
+                "time": 1630937270984
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "home_page",
+                "rawStartTime": 1630937268889,
+                "rawEndTime": 1630937269292,
+                "thinkTime": 0.0,
+                "wastedTime": 0.037406206130981448
+            },
+            {
+                "transactionName": "logon",
+                "rawStartTime": 1630937269309,
+                "rawEndTime": 1630937269655,
+                "thinkTime": 0.0,
+                "wastedTime": 0.017155170440673829
+            },
+            {
+                "transactionName": "click_button_flights",
+                "rawStartTime": 1630937269671,
+                "rawEndTime": 1630937269902,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016671180725097657
+            },
+            {
+                "transactionName": "find_flight",
+                "rawStartTime": 1630937269917,
+                "rawEndTime": 1630937270102,
+                "thinkTime": 0.0,
+                "wastedTime": 0.016128063201904298
+            },
+            {
+                "transactionName": "flight_selection",
+                "rawStartTime": 1630937270118,
+                "rawEndTime": 1630937270286,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013373374938964844
+            },
+            {
+                "transactionName": "payment_details",
+                "rawStartTime": 1630937270302,
+                "rawEndTime": 1630937270486,
+                "thinkTime": 0.0,
+                "wastedTime": 0.014012336730957032
+            },
+            {
+                "transactionName": "click_button_itinerary",
+                "rawStartTime": 1630937270503,
+                "rawEndTime": 1630937270748,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015228986740112305
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1630937270764,
+                "rawEndTime": 1630937270996,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019200801849365236
+            },
+            {
+                "transactionName": "ByeTicket",
+                "rawStartTime": 1630937268873,
+                "rawEndTime": 1630937271012,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14917612075805665
+            }
+        ]
+    }
+]

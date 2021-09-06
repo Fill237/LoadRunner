@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:1080
+Cookie: MSO=SID&1630937271; MTUserInfo=firstName&Jocelin&username&jojo6&address2&Gaborone&hash&86&address1&Jay%20Em&lastName&Stevenson%0A
+

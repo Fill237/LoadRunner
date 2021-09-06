@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 06 Sep 2021 14:08:03 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 05 Sep 2021 14:08:03 GMT
+Set-Cookie: MTUserInfo=firstName&Adele&username&jojo10&address2&Vilnius&hash&16&address1&Harvest%20Deer%20Park&lastName&Daniels%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,10 @@
+GET http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.84
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Proxy-Connection: Keep-Alive
+Host: 127.0.0.1:1080
+Cookie: MSO=SID&1630937380; MTUserInfo=firstName&Vivian&address2&Caracas&username&jojo9&hash&89&lastName&Gallagher%0A&address1&Missouri&creditCard&&expDate&%0A
+

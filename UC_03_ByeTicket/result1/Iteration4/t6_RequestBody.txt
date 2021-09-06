@@ -1,3 +1,3 @@
-"advanceDiscount=0&depart=San+Francisco&departDate=06%2F09%2F2021&arrive=London&returnDate=07%2"
-"F09%2F2021&numPassengers=1&seatPref=Now&seatType=Coach&findFlights.x=51&findFlights.y=13&.cgif"
-"ields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
+"advanceDiscount=0&depart=Frankfurt&departDate=06%2F09%2F2021&arrive=Seattle&returnDate=07%2F09"
+"%2F2021&numPassengers=1&seatPref=&seatType=&findFlights.x=51&findFlights.y=13&.cgifields=round"
+"trip&.cgifields=seatType&.cgifields=seatPref"

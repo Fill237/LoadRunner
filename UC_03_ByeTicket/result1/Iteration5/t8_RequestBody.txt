@@ -1,4 +1,4 @@
 "firstName=Mary&lastName=Quinn&address1=Pleasant+Wharf&address2=Mexico+city&pass1=Mary+Quinn&cr"
 "editCard=74125863&expDate=06%2F28&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFli"
-"ght=850%3B1509%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x="
-"24&buyFlights.y=11&.cgifields=saveCC"
+"ght=330%3B0%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&"
+"buyFlights.y=11&.cgifields=saveCC"

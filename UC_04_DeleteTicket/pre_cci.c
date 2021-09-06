@@ -2683,15 +2683,16 @@ TicketDelete()
 	lr_start_transaction("click_button_itinerary");
 	
 	lr_think_time(5);
-	
+			
 	web_reg_save_param("FlightID",
 		"LB=flightID\" value=\"",
 		"RB=\"",
 		"Ord=1",
 		"LAST");
-		
 	
 	web_reg_find("Text/IC=User wants the intineraries.","LAST");
+
+ 
 
 	web_url("welcome.pl_2", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -2711,17 +2712,27 @@ TicketDelete()
 	lr_think_time(5);
 	
 	web_reg_find("Text/IC=Flights List","LAST");
+	
+	web_reg_find("Text/IC= name=\"flightID\" value=\"{FlightID}\"",
+	"SaveCount=CountDel", 
+	"LAST" );
 
-	web_reg_find("Text/IC=<label><input type=\"checkbox\" name=\"1\" value=\"on\" /></label></font></b> <input type=\"hidden\" name=\"flightID\" value=\"{FlightID}\"  />","LAST");
-
+	             		
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t42.inf", 
 		"ITEMDATA", 
 		"Name=1", "Value=on", "ENDITEM", 
 		"Name=removeFlights.x", "Value=60", "ENDITEM", 
-		"Name=removeFlights.y", "Value=11", "ENDITEM", 
-		"LAST");
-			
+		"Name=removeFlights.y", "Value=11", "ENDITEM",
+		"LAST" );
+		
+		if (atoi(lr_eval_string("{CountDel}")) > 0) {
+		lr_error_message ("Can not delete!");
+	}
+	else{
+		lr_output_message ("Delete!");
+	    }
+	
 	lr_end_transaction("select_and_delete_ticket", 2);
 
 	

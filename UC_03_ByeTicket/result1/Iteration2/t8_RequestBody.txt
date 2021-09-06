@@ -1,4 +1,4 @@
 "firstName=Alex&lastName=Norman&address1=Vermont&address2=Brussels&pass1=Alex+Norman&creditCard"
-"=87654321&expDate=05%2F22&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFlight=140%"
-"3B241%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFli"
-"ghts.y=11&.cgifields=saveCC"
+"=87654321&expDate=05%2F22&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFlight=980%"
+"3B2013%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFl"
+"ights.y=11&.cgifields=saveCC"
