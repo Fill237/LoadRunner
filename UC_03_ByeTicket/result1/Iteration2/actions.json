@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "ByeTicket",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t2.inf",
+                "time": 1630914042590
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1630914042916
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1630914043257
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1630914043535
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1630914043822
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1630914044029
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1630914044399
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t10.inf",
+                "time": 1630914044730
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "home_page",
+                "rawStartTime": 1630914042362,
+                "rawEndTime": 1630914042607,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01378321647644043
+            },
+            {
+                "transactionName": "logon",
+                "rawStartTime": 1630914042627,
+                "rawEndTime": 1630914042943,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009064912796020508
+            },
+            {
+                "transactionName": "click_button_flights",
+                "rawStartTime": 1630914042962,
+                "rawEndTime": 1630914043275,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009624719619750977
+            },
+            {
+                "transactionName": "find_flight",
+                "rawStartTime": 1630914043294,
+                "rawEndTime": 1630914043548,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01136469841003418
+            },
+            {
+                "transactionName": "flight_selection",
+                "rawStartTime": 1630914043568,
+                "rawEndTime": 1630914043840,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008537769317626953
+            },
+            {
+                "transactionName": "payment_details",
+                "rawStartTime": 1630914043857,
+                "rawEndTime": 1630914044049,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015079021453857422
+            },
+            {
+                "transactionName": "click_button_itinerary",
+                "rawStartTime": 1630914044079,
+                "rawEndTime": 1630914044412,
+                "thinkTime": 0.0,
+                "wastedTime": 0.026808738708496095
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1630914044431,
+                "rawEndTime": 1630914044745,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011675119400024414
+            },
+            {
+                "transactionName": "ByeTicket",
+                "rawStartTime": 1630914042345,
+                "rawEndTime": 1630914044760,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10593819618225098
+            }
+        ]
+    }
+]

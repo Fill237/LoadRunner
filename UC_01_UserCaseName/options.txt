@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\getay\Documents\VuGen\Scripts\01_UC
+-ID:\LoadRunner\include
+-ec:\users\getay\documents\vugen\scripts\01_uc\\logfile.log
+c:\users\getay\documents\vugen\scripts\01_uc\\combined_01_UC.c
+c:\users\getay\documents\vugen\scripts\01_uc\\pre_cci.c
