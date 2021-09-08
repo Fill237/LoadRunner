@@ -47,7 +47,7 @@ CreateUsers()
 
 	lr_think_time(5);
 
-	web_reg_find("Text/IC=Welcome to Web Tours",LAST);
+	web_reg_find("Text/IC={Login}",LAST);
 
 	web_submit_data("login.pl_2", 
 		"Action=http://127.0.0.1:1080/cgi-bin/login.pl", 
