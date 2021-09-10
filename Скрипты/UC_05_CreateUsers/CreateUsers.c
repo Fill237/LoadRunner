@@ -1,6 +1,6 @@
 CreateUsers()
 {
-	lr_start_transaction("CreateUsers");
+	lr_start_transaction("UC_05_CreateUsers");
 	
 	
 	lr_start_transaction("home_page");
@@ -110,7 +110,7 @@ CreateUsers()
 	lr_end_transaction("logout",LR_AUTO);
 	
 	
-	lr_end_transaction("CreateUsers", LR_AUTO);
+	lr_end_transaction("UC_05_CreateUsers", LR_AUTO);
 
 	return 0;
 }

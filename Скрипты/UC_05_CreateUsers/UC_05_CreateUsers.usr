@@ -52,14 +52,14 @@ vuser_init=cci
 CreateUsers=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="CreateUsers__*delimiter*__home_page__*delimiter*__click_sing_up_now__*delimiter*__customer_profile__*delimiter*__click_button_continue__*delimiter*__logout"
+Order="UC_05_CreateUsers__*delimiter*__home_page__*delimiter*__click_sing_up_now__*delimiter*__customer_profile__*delimiter*__click_button_continue__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-CreateUsers=
+UC_05_CreateUsers=
 home_page=
 click_sing_up_now=
 customer_profile=

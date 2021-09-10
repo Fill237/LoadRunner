@@ -1,6 +1,6 @@
 TicketDelete()
 {
-	lr_start_transaction("Delete_Ticket");
+	lr_start_transaction("UC_04_DeleteTicket");
 	
 
 	lr_start_transaction("home_page");
@@ -103,9 +103,13 @@ TicketDelete()
 		LAST );
 		
 		if (atoi(lr_eval_string("{CountDel}")) > 0) {
-	lr_error_message ("Can not delete!");}
+	lr_error_message ("Can not delete!");
+	lr_end_transaction("select_and_delete_ticket", LR_FAIL);
+		}	
 		else{
-	lr_output_message ("Delete!");}
+	lr_output_message ("Delete!");
+	lr_end_transaction("select_and_delete_ticket", LR_FAIL);
+		}
 	
 	lr_end_transaction("select_and_delete_ticket", LR_AUTO);
 
@@ -129,7 +133,7 @@ TicketDelete()
 	lr_end_transaction("logout",LR_AUTO);
 	
 	
-	lr_end_transaction("Delete_Ticket", LR_AUTO);
+	lr_end_transaction("UC_04_DeleteTicket", LR_AUTO);
 
 	return 0;
 }

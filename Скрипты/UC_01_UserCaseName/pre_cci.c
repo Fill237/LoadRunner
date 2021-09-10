@@ -2596,7 +2596,7 @@ vuser_init()
 # 1 "UserCaseName.c" 1
 UserCaseName()
 {
-	lr_start_transaction("UserCaseName");
+	lr_start_transaction("UC_01_UserCaseName");
 
 	
 	lr_start_transaction("home_page");
@@ -2674,7 +2674,7 @@ UserCaseName()
 	lr_end_transaction("logout",2);
 	
 	
-	lr_end_transaction("UserCaseName", 2);
+	lr_end_transaction("UC_01_UserCaseName", 2);
 
 	return 0;
 }

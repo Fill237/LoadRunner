@@ -52,14 +52,14 @@ vuser_init=cci
 UserCaseName=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UserCaseName__*delimiter*__home_page__*delimiter*__logon__*delimiter*__logout"
+Order="UC_01_UserCaseName__*delimiter*__home_page__*delimiter*__logon__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-UserCaseName=
+UC_01_UserCaseName=
 home_page=
 logon=
 logout=

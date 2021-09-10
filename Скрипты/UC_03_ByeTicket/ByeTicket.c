@@ -1,6 +1,6 @@
 ByeTicket()
 {	
-	lr_start_transaction("ByeTicket");
+	lr_start_transaction("UC_03_ByeTicket");
 	
 	
 	lr_start_transaction("home_page");
@@ -226,7 +226,7 @@ ByeTicket()
 	lr_end_transaction("logout",LR_AUTO);
 	
 	
-	lr_end_transaction("ByeTicket", LR_AUTO);
+	lr_end_transaction("UC_03_ByeTicket", LR_AUTO);
 
 	return 0;
 }

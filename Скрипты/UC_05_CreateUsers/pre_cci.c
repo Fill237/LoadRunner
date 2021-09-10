@@ -2602,7 +2602,7 @@ vuser_init()
 # 1 "CreateUsers.c" 1
 CreateUsers()
 {
-	lr_start_transaction("CreateUsers");
+	lr_start_transaction("UC_05_CreateUsers");
 	
 	
 	lr_start_transaction("home_page");
@@ -2712,7 +2712,7 @@ CreateUsers()
 	lr_end_transaction("logout",2);
 	
 	
-	lr_end_transaction("CreateUsers", 2);
+	lr_end_transaction("UC_05_CreateUsers", 2);
 
 	return 0;
 }

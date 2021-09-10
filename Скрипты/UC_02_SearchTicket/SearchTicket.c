@@ -1,6 +1,6 @@
 SearchTicket()
 {
-	lr_start_transaction("SearchTicket");
+	lr_start_transaction("UC_02_SearchTicket");
 	
 	
 	lr_start_transaction("home_page");
@@ -169,7 +169,7 @@ SearchTicket()
 	lr_end_transaction("logout",LR_AUTO);
 	
 	
-	lr_end_transaction("SearchTicket", LR_AUTO);
+	lr_end_transaction("UC_02_SearchTicket", LR_AUTO);
 
 	return 0;
 }

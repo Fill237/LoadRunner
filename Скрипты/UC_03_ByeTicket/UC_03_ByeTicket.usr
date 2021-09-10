@@ -52,14 +52,14 @@ vuser_init=cci
 ByeTicket=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="ByeTicket__*delimiter*__home_page__*delimiter*__logon__*delimiter*__click_button_flights__*delimiter*__find_flight__*delimiter*__flight_selection__*delimiter*__payment_details__*delimiter*__click_button_itinerary__*delimiter*__logout"
+Order="UC_03_ByeTicket__*delimiter*__home_page__*delimiter*__logon__*delimiter*__click_button_flights__*delimiter*__find_flight__*delimiter*__flight_selection__*delimiter*__payment_details__*delimiter*__click_button_itinerary__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-ByeTicket=
+UC_03_ByeTicket=
 home_page=
 logon=
 click_button_flights=

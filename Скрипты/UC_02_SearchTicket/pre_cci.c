@@ -2601,7 +2601,7 @@ vuser_init()
 # 1 "SearchTicket.c" 1
 SearchTicket()
 {
-	lr_start_transaction("SearchTicket");
+	lr_start_transaction("UC_02_SearchTicket");
 	
 	
 	lr_start_transaction("home_page");
@@ -2770,7 +2770,7 @@ SearchTicket()
 	lr_end_transaction("logout",2);
 	
 	
-	lr_end_transaction("SearchTicket", 2);
+	lr_end_transaction("UC_02_SearchTicket", 2);
 
 	return 0;
 }

@@ -1,6 +1,6 @@
 ﻿UserCaseName()
 {
-	lr_start_transaction("UserCaseName");
+	lr_start_transaction("UC_01_UserCaseName");
 
 	
 	lr_start_transaction("home_page");
@@ -78,7 +78,7 @@
 	lr_end_transaction("logout",LR_AUTO);
 	
 	
-	lr_end_transaction("UserCaseName", LR_AUTO);
+	lr_end_transaction("UC_01_UserCaseName", LR_AUTO);
 
 	return 0;
 }

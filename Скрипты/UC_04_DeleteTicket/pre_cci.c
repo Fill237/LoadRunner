@@ -2621,7 +2621,7 @@ vuser_init()
 # 1 "TicketDelete.c" 1
 TicketDelete()
 {
-	lr_start_transaction("Delete_Ticket");
+	lr_start_transaction("UC_04_DeleteTicket");
 	
 
 	lr_start_transaction("home_page");
@@ -2692,8 +2692,6 @@ TicketDelete()
 	
 	web_reg_find("Text/IC=User wants the intineraries.","LAST");
 
- 
-
 	web_url("welcome.pl_2", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=", 
@@ -2714,9 +2712,8 @@ TicketDelete()
 	web_reg_find("Text/IC=Flights List","LAST");
 	
 	web_reg_find("Text/IC= name=\"flightID\" value=\"{FlightID}\"",
-	"SaveCount=CountDel", 
-	"LAST" );
-
+		"SaveCount=CountDel", 
+		"LAST" );
 	             		
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t42.inf", 
@@ -2727,11 +2724,13 @@ TicketDelete()
 		"LAST" );
 		
 		if (atoi(lr_eval_string("{CountDel}")) > 0) {
-		lr_error_message ("Can not delete!");
-	}
-	else{
-		lr_output_message ("Delete!");
-	    }
+	lr_error_message ("Can not delete!");
+	lr_end_transaction("select_and_delete_ticket", 1);
+		}	
+		else{
+	lr_output_message ("Delete!");
+	lr_end_transaction("select_and_delete_ticket", 1);
+		}
 	
 	lr_end_transaction("select_and_delete_ticket", 2);
 
@@ -2755,7 +2754,7 @@ TicketDelete()
 	lr_end_transaction("logout",2);
 	
 	
-	lr_end_transaction("Delete_Ticket", 2);
+	lr_end_transaction("UC_04_DeleteTicket", 2);
 
 	return 0;
 }

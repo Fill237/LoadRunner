@@ -52,14 +52,14 @@ vuser_init=cci
 SearchTicket=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="SearchTicket__*delimiter*__home_page__*delimiter*__logon__*delimiter*__click_button_flights__*delimiter*__find_flight__*delimiter*__flight_selection__*delimiter*__logout"
+Order="UC_02_SearchTicket__*delimiter*__home_page__*delimiter*__logon__*delimiter*__click_button_flights__*delimiter*__find_flight__*delimiter*__flight_selection__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-SearchTicket=
+UC_02_SearchTicket=
 home_page=
 logon=
 click_button_flights=

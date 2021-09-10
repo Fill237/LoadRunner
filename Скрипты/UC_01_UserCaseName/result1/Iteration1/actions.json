@@ -6,49 +6,49 @@
                 "stepId": "STEP1",
                 "stepName": "Url: welcome.pl_2",
                 "infFile": "t2.inf",
-                "time": 1630929463333
+                "time": 1631266857507
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Submit Data: login.pl",
                 "infFile": "t3.inf",
-                "time": 1630929463754
+                "time": 1631266860845
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Url: SignOff Button",
                 "infFile": "t4.inf",
-                "time": 1630929464250
+                "time": 1631266864098
             }
         ],
         "transactions": [
             {
                 "transactionName": "home_page",
-                "rawStartTime": 1630929462868,
-                "rawEndTime": 1630929463336,
-                "thinkTime": 0.0,
-                "wastedTime": 0.14815759658813477
+                "rawStartTime": 1631266854172,
+                "rawEndTime": 1631266857513,
+                "thinkTime": 3.007463,
+                "wastedTime": 0.1377246379852295
             },
             {
                 "transactionName": "logon",
-                "rawStartTime": 1630929463352,
-                "rawEndTime": 1630929463770,
-                "thinkTime": 0.0,
-                "wastedTime": 0.017619609832763673
+                "rawStartTime": 1631266857534,
+                "rawEndTime": 1631266860861,
+                "thinkTime": 3.019395,
+                "wastedTime": 0.007171630859375
             },
             {
                 "transactionName": "logout",
-                "rawStartTime": 1630929463785,
-                "rawEndTime": 1630929464261,
-                "thinkTime": 0.0,
-                "wastedTime": 0.01228785514831543
+                "rawStartTime": 1631266860877,
+                "rawEndTime": 1631266864103,
+                "thinkTime": 3.006753,
+                "wastedTime": 0.004373311996459961
             },
             {
-                "transactionName": "UserCaseName",
-                "rawStartTime": 1630929462853,
-                "rawEndTime": 1630929464278,
-                "thinkTime": 0.0,
-                "wastedTime": 0.17806506156921388
+                "transactionName": "UC_01_UserCaseName",
+                "rawStartTime": 1631266854154,
+                "rawEndTime": 1631266864123,
+                "thinkTime": 9.033611,
+                "wastedTime": 0.14926958084106446
             }
         ]
     }

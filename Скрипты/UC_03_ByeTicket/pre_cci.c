@@ -2603,7 +2603,7 @@ vuser_init()
 # 1 "ByeTicket.c" 1
 ByeTicket()
 {	
-	lr_start_transaction("ByeTicket");
+	lr_start_transaction("UC_03_ByeTicket");
 	
 	
 	lr_start_transaction("home_page");
@@ -2829,7 +2829,7 @@ ByeTicket()
 	lr_end_transaction("logout",2);
 	
 	
-	lr_end_transaction("ByeTicket", 2);
+	lr_end_transaction("UC_03_ByeTicket", 2);
 
 	return 0;
 }
