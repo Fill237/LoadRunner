@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Denver&departDate=09%2F04%2F2021&arrive=Paris&returnDate=09%2F05%2F20"
-"21&numPassengers=1&seatPref=Window&seatType=Business&findFlights.x=16&findFlights.y=9&.cgifiel"
-"ds=roundtrip&.cgifields=seatType&.cgifields=seatPref"

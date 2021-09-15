@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\getay\Documents\VuGen\Scripts\UC_02_SearchTicket
--ID:\LoadRunner\include
--ec:\users\getay\documents\vugen\scripts\uc_02_searchticket\\logfile.log
-c:\users\getay\documents\vugen\scripts\uc_02_searchticket\\combined_UC_02_SearchTicket.c
-c:\users\getay\documents\vugen\scripts\uc_02_searchticket\\pre_cci.c

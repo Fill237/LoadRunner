@@ -1,4 +1,0 @@
-"1=on&flightID=210317411-778-JB&flightID=2103274173-15590-JB&flightID=2103166-23-JB&flightID=21"
-"0324449-3086-JB&flightID=2103085-38-JB&flightID=210309633-4624-JB&flightID=210317411-5393-JB&f"
-"lightID=210325214-6215-JB&.cgifields=6&.cgifields=3&.cgifields=7&.cgifields=2&.cgifields=8&.cg"
-"ifields=1&.cgifields=4&.cgifields=5&removeFlights.x=60&removeFlights.y=11"

@@ -1,2 +1,0 @@
-"username=jojo1&password=1234&passwordConfirm=1234&firstName=Alex&lastName=Norman&address1=Verm"
-"ont&address2=Brussels&register.x=32&register.y=4"

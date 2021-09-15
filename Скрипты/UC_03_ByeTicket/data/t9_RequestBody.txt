@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=09%2F06%2F2021&arrive=Denver&returnDate=09%2F0"
-"7%2F2021&numPassengers=1&seatPref=Aisle&seatType=Business&findFlights.x=63&findFlights.y=4&.cg"
-"ifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"
