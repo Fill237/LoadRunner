@@ -1,0 +1,1828 @@
+Virtual User Script started at: 13.09.2021 15:50:43
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "D:\Perfomans testing\VLAD_WEB_TOUR\UC_3_ByeTicket_V2\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "D:\Perfomans testing\VLAD_WEB_TOUR\UC_3_ByeTicket_V2"  	[MsgId: MMSG-27052]
+Vuser output directory: "D:\Perfomans testing\VLAD_WEB_TOUR\UC_3_ByeTicket_V2"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "d:\perfomans testing\vlad_web_tour\uc_3_byeticket_v2"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2021-09-13 12:50:43  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2021-09-13 15:50:43  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Using custom proxy with following setting:  	[MsgId: MMSG-27094]
+        Use automatic configuration script: No  	[MsgId: MMSG-27002]
+        Use proxy server: Yes  	[MsgId: MMSG-27000]
+        HTTP proxy address is localhost:8888  	[MsgId: MMSG-27170]
+        HTTPS proxy address is localhost:8888  	[MsgId: MMSG-27170]
+        No proxy user name is specified  	[MsgId: MMSG-27164]
+        No password is specified for the proxy  	[MsgId: MMSG-27162]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "D:\Perfomans testing\VLAD_WEB_TOUR\UC_3_ByeTicket_V2\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action ByeTicket.
+ByeTicket.c(4): Notify: Transaction "UC_03_ByeTicket" started.
+ByeTicket.c(7): Notify: Transaction "home_page" started.
+ByeTicket.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(13): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+ByeTicket.c(13): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(21): web_url("welcome.pl_2") started  	[MsgId: MMSG-26355]
+ByeTicket.c(21): t=1076ms: Connecting [0] to host 127.0.0.1:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1078ms: Connected socket [0] from 127.0.0.1:9411 to 127.0.0.1:8888 in 1 ms  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1079ms: 334-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+ByeTicket.c(21):     GET http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true HTTP/1.1\r\n
+ByeTicket.c(21):     Referer: http://127.0.0.1:1080/WebTours/\r\n
+ByeTicket.c(21):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(21):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(21):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(21):     Accept: */*\r\n
+ByeTicket.c(21):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1322ms: 328-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+ByeTicket.c(21):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(21):     Date: Mon, 13 Sep 2021 12:50:43 GMT\r\n
+ByeTicket.c(21):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(21):     Set-Cookie: MSO=SID&1631537443; path=/\r\n
+ByeTicket.c(21):     Set-Cookie: MTUserInfo=; path=/; expires=Sun, 12-Sep-2021 12:50:43 GMT\r\n
+ByeTicket.c(21):     Keep-Alive: timeout=5, max=100\r\n
+ByeTicket.c(21):     Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(21):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1333ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+ByeTicket.c(21):     2ae\r\n
+ByeTicket.c(21): t=1334ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21):     0\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1343ms: 686-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+ByeTicket.c(21):     <!-- \n
+ByeTicket.c(21):      A Session ID has been created and loaded into a cookie called MSO.\n
+ByeTicket.c(21):      Also, the server options have been loaded into the cookie called\n
+ByeTicket.c(21):      MSO as well.  The server options can be set via the Admin page.\n
+ByeTicket.c(21):      --->\n
+ByeTicket.c(21):     \n
+ByeTicket.c(21):     <html>\n
+ByeTicket.c(21):     <title>Web Tours</title>\n
+ByeTicket.c(21):        <!-- Frame Set -->\n
+ByeTicket.c(21):        <frameset cols="160,*" border="1" frameborder="1">\n
+ByeTicket.c(21):           <!-- Navigation Frame -->\n
+ByeTicket.c(21):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+ByeTicket.c(21):                 noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(21):           <!-- Home Frame -->\n
+ByeTicket.c(21):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+ByeTicket.c(21):                 noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(21):        </frameset>\n
+ByeTicket.c(21):     </html>\n
+ByeTicket.c(21):     \n
+ByeTicket.c(21):     </body>\n
+ByeTicket.c(21):     </html>
+ByeTicket.c(21): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+ByeTicket.c(21): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+ByeTicket.c(21): t=1355ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1380ms: Connecting [1] to host 127.0.0.1:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1382ms: Connecting [2] to host 127.0.0.1:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1386ms: Connected socket [1] from 127.0.0.1:9413 to 127.0.0.1:8888 in 5 ms  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1386ms: 375-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+ByeTicket.c(21):     GET http://127.0.0.1:1080/cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+ByeTicket.c(21):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n
+ByeTicket.c(21):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(21):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(21):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(21):     Accept: */*\r\n
+ByeTicket.c(21):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(21):     Cookie: MSO=SID&1631537443\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1388ms: Connected socket [2] from 127.0.0.1:9414 to 127.0.0.1:8888 in 3 ms  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1388ms: 371-byte request headers for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+ByeTicket.c(21):     GET http://127.0.0.1:1080/WebTours/home.html HTTP/1.1\r\n
+ByeTicket.c(21):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true\r\n
+ByeTicket.c(21):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(21):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(21):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(21):     Accept: */*\r\n
+ByeTicket.c(21):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(21):     Cookie: MSO=SID&1631537443\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1413ms: 299-byte response headers for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+ByeTicket.c(21):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(21):     Date: Mon, 13 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(21):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(21):     Last-Modified: Mon, 27 May 2013 11:20:22 GMT\r\n
+ByeTicket.c(21):     ETag: "1000000000738-551-4ddb1559ac980"\r\n
+ByeTicket.c(21):     Accept-Ranges: bytes\r\n
+ByeTicket.c(21):     Content-Length: 1361\r\n
+ByeTicket.c(21):     Keep-Alive: timeout=5, max=100\r\n
+ByeTicket.c(21):     Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Content-Type: text/html\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1415ms: 1361-byte response body for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+ByeTicket.c(21):     <HTML>\n
+ByeTicket.c(21):     <HEAD>\n
+ByeTicket.c(21):     \t<title>Web Tours</title>\n
+ByeTicket.c(21):     </HEAD>\n
+ByeTicket.c(21):     <style>\n
+ByeTicket.c(21):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(21):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+ByeTicket.c(21):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(21):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(21):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+ByeTicket.c(21):     N: none}\n
+ByeTicket.c(21):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+ByeTicket.c(21):     CORATION: underline}\n
+ByeTicket.c(21):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(21):     </style>\n
+ByeTicket.c(21):     <body bgcolor="#e0e7f1">\n
+ByeTicket.c(21):     <BR/>\n
+ByeTicket.c(21):     <BR/>\n
+ByeTicket.c(21):     <BR/>\n
+ByeTicket.c(21):     <br/>\n
+ByeTicket.c(21):     <table border="0">\n
+ByeTicket.c(21):     <tr><td></td></tr>\n
+ByeTicket.c(21):     <TR><TD></TD></TR>\n
+ByeTicket.c(21):     <TR><TD>\n
+ByeTicket.c(21):     <blockquote>\n
+ByeTicket.c(21):     <H1><b>Web Tours</b></H1>\n
+ByeTicket.c(21):     Welcome to the Web Tours site.\n
+ByeTicket.c(21):     <br/>\n
+ByeTicket.c(21):     To make reservations,please enter your account information to the left.\n
+ByeTicket.c(21):     <br/>\n
+ByeTicket.c(21):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+ByeTicket.c(21):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+ByeTicket.c(21):     <br/>\n
+ByeTicket.c(21):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+ByeTicket.c(21):     tration</b></A> link.\n
+ByeTicket.c(21):     <br/><br/><br/><br/><br/><br/>\n
+ByeTicket.c(21):     <br/><small>\n
+ByeTicket.c(21):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+ByeTicket.c(21):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+ByeTicket.c(21):     </small>\n
+ByeTicket.c(21):     </blockquote></TD>\n
+ByeTicket.c(21):     <TD></TD></TR>\n
+ByeTicket.c(21):     </table>\n
+ByeTicket.c(21):     </body>\n
+ByeTicket.c(21):     </HTML>\n
+ByeTicket.c(21): t=1420ms: Request done "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1613ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+ByeTicket.c(21):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(21):     Date: Mon, 13 Sep 2021 12:50:43 GMT\r\n
+ByeTicket.c(21):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(21):     Expires: Sun, 12 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(21):     Keep-Alive: timeout=5, max=99\r\n
+ByeTicket.c(21):     Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(21):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1614ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+ByeTicket.c(21):     5d2\r\n
+ByeTicket.c(21): t=1614ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21):     0\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1615ms: 1490-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+ByeTicket.c(21):     <!DOCTYPE html\n
+ByeTicket.c(21):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(21):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(21):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(21):     <head>\n
+ByeTicket.c(21):     <title>Web Tours Navigation Bar</title>\n
+ByeTicket.c(21):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(21):     </head>\n
+ByeTicket.c(21):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(21):     <style>\n
+ByeTicket.c(21):     blockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(21):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+ByeTicket.c(21):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(21):     small {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(21):     </style>\n
+ByeTicket.c(21):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+ByeTicket.c(21):     <input type="hidden" name="userSession" value="132161.801782098zHQiAHcpzHQVzzzHtAHiiptDzAH
+ByeTicket.c(21):     f"/>\n
+ByeTicket.c(21):     <table border="0"><tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td><small>&nbsp;Username</small></td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td><small>&nbsp;Password</small></td>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(21):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+ByeTicket.c(21):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+ByeTicket.c(21):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+ByeTicket.c(21):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+ByeTicket.c(21):     </form>\n
+ByeTicket.c(21):     \n
+ByeTicket.c(21):     </body>\n
+ByeTicket.c(21):     </html>\n
+ByeTicket.c(21): Notify: Saving Parameter "userSession = 132161.801782098zHQiAHcpzHQVzzzHtAHiiptDzAHf".
+ByeTicket.c(21): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+ByeTicket.c(21): t=1620ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1621ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(21): t=1621ms: 373-byte request headers for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+ByeTicket.c(21):     GET http://127.0.0.1:1080/WebTours/images/mer_login.gif HTTP/1.1\r\n
+ByeTicket.c(21):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home\r\n
+ByeTicket.c(21):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(21):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(21):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(21):     Accept: */*\r\n
+ByeTicket.c(21):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(21):     Cookie: MSO=SID&1631537443\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1654ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+ByeTicket.c(21):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(21):     Date: Mon, 13 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(21):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(21):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(21):     ETag: "100000000074c-2a7-4b654c052c2c0"\r\n
+ByeTicket.c(21):     Accept-Ranges: bytes\r\n
+ByeTicket.c(21):     Content-Length: 679\r\n
+ByeTicket.c(21):     Keep-Alive: timeout=5, max=98\r\n
+ByeTicket.c(21):     Connection: Keep-Alive\r\n
+ByeTicket.c(21):     Content-Type: image/gif\r\n
+ByeTicket.c(21):     \r\n
+ByeTicket.c(21): t=1656ms: 679-byte response body for "http://127.0.0.1:1080/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=4)
+ByeTicket.c(21): t=1656ms: Request done "http://127.0.0.1:1080/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(21): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+ByeTicket.c(21): web_url("welcome.pl_2") was successful, 4216 body bytes, 1179 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(31): Notify: Transaction "home_page" ended with a "Pass" status (Duration: 0,9126 Wasted Time: 0,2884).
+ByeTicket.c(34): Notify: Transaction "logon" started.
+ByeTicket.c(38): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(38): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(40): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+ByeTicket.c(40): Notify: Parameter Substitution: parameter "userSession" =  "132161.801782098zHQiAHcpzHQVzzzHtAHiiptDzAHf"
+ByeTicket.c(40): Notify: Parameter Substitution: parameter "Login" =  "jojo"
+ByeTicket.c(40): Notify: Next row for parameter Password = 1 [table  = Password].
+ByeTicket.c(40): Notify: Parameter Substitution: parameter "Password" =  "bean"
+ByeTicket.c(40): t=1887ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=1887ms: 431-byte request headers for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     POST http://127.0.0.1:1080/cgi-bin/login.pl HTTP/1.1\r\n
+ByeTicket.c(40):     Content-Type: application/x-www-form-urlencoded\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443\r\n
+ByeTicket.c(40):     Content-Length: 122\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=1890ms: 122-byte request body for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     userSession=132161.801782098zHQiAHcpzHQVzzzHtAHiiptDzAHf&username=jojo&password=bean&login
+ByeTicket.c(40):     .x=70&login.y=5&JSFormSubmit=off
+ByeTicket.c(40): t=2175ms: 358-byte response headers for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Expires: 5s\r\n
+ByeTicket.c(40):     Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&add
+ByeTicket.c(40):     ress1&&creditCard&&expDate&%0A; path=/\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=97\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(40):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2178ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     1e1\r\n
+ByeTicket.c(40): t=2178ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40):     0\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2179ms: 481-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/login.pl" (RelFrameId=1, Internal ID=5)
+ByeTicket.c(40):     <!--\n
+ByeTicket.c(40):     User password was correct - added a cookie with the user's default\n
+ByeTicket.c(40):     information.  Set the user up to make reservations...\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     --->\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     <html>\n
+ByeTicket.c(40):     <title>Web Tours</title>\n
+ByeTicket.c(40):     <frameset cols="160,*" border=1 frameborder=1>\n
+ByeTicket.c(40):     <frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" nores
+ByeTicket.c(40):     ize="noresize" scrolling="auto"/>\n
+ByeTicket.c(40):     <frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="no
+ByeTicket.c(40):     resize" scrolling="auto"/>\n
+ByeTicket.c(40):     </frameset>\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     </body>\n
+ByeTicket.c(40):     </html>
+ByeTicket.c(40): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+ByeTicket.c(40): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+ByeTicket.c(40): t=2181ms: Request done "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2182ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2182ms: 480-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/login.pl\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2183ms: Already connected [2] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2184ms: 475-byte request headers for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/cgi-bin/login.pl?intro=true HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/login.pl\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2437ms: 228-byte response headers for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Expires: 5s\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=99\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(40):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2438ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+ByeTicket.c(40):     396\r\n
+ByeTicket.c(40): t=2438ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40):     0\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2439ms: 918-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" (RelFrameId=1.2, Internal ID=7)
+ByeTicket.c(40):     <!DOCTYPE html\n
+ByeTicket.c(40):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(40):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(40):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(40):     <head>\n
+ByeTicket.c(40):     <title>Welcome to Web Tours</title>\n
+ByeTicket.c(40):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(40):     </head>\n
+ByeTicket.c(40):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(40):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+ByeTicket.c(40):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+ByeTicket.c(40):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+ByeTicket.c(40):     black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours 
+ByeTicket.c(40):     reservation pages.<BR/>Using the menu to the left, you can search for new flights to book,
+ByeTicket.c(40):      \n
+ByeTicket.c(40):     or review/edit the flights already booked.  Don't forget to sign off when\n
+ByeTicket.c(40):     you're done!\n
+ByeTicket.c(40):     </blockquote>\n
+ByeTicket.c(40):     </body>\n
+ByeTicket.c(40):     </html>
+ByeTicket.c(40): t=2442ms: Request done "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2458ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:44 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Expires: Sun, 12 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=96\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(40):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2459ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+ByeTicket.c(40):     5ca\r\n
+ByeTicket.c(40): t=2460ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40):     0\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2461ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=6)
+ByeTicket.c(40):     <!DOCTYPE html\n
+ByeTicket.c(40):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(40):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(40):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(40):     <head>\n
+ByeTicket.c(40):     <title>Web Tours Navigation Bar</title>\n
+ByeTicket.c(40):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(40):     </head>\n
+ByeTicket.c(40):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     <style>\n
+ByeTicket.c(40):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(40):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+ByeTicket.c(40):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(40):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(40):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+ByeTicket.c(40):     N: none}\n
+ByeTicket.c(40):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+ByeTicket.c(40):     CORATION: underline}\n
+ByeTicket.c(40):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(40):     </style>\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     <BR><BR><center>\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+ByeTicket.c(40):     RC="/WebTours/images/flights.gif" \n
+ByeTicket.c(40):     ALT="Search Flights Button"/></A>\n
+ByeTicket.c(40):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+ByeTicket.c(40):     WebTours/images/itinerary.gif" \n
+ByeTicket.c(40):     ALT="Itinerary Button"/></A>\n
+ByeTicket.c(40):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+ByeTicket.c(40):     ours/images/in_home.gif" \n
+ByeTicket.c(40):     ALT="Home Button"/></A>\n
+ByeTicket.c(40):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+ByeTicket.c(40):     es/signoff.gif" \n
+ByeTicket.c(40):     ALT="SignOff Button"/></A></center>\n
+ByeTicket.c(40):     \n
+ByeTicket.c(40):     </body>\n
+ByeTicket.c(40):     </html>\n
+ByeTicket.c(40): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+ByeTicket.c(40): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+ByeTicket.c(40): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+ByeTicket.c(40): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+ByeTicket.c(40): t=2466ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2467ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2467ms: 491-byte request headers for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/WebTours/images/flights.gif HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2469ms: Already connected [2] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2469ms: 493-byte request headers for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/WebTours/images/itinerary.gif HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2470ms: Connecting [3] to host 127.0.0.1:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2471ms: Connecting [4] to host 127.0.0.1:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2473ms: Connected socket [3] from 127.0.0.1:9416 to 127.0.0.1:8888 in 3 ms  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2474ms: 491-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/WebTours/images/in_home.gif HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2475ms: Connected socket [4] from 127.0.0.1:9417 to 127.0.0.1:8888 in 4 ms  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2475ms: 491-byte request headers for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+ByeTicket.c(40):     GET http://127.0.0.1:1080/WebTours/images/signoff.gif HTTP/1.1\r\n
+ByeTicket.c(40):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(40):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(40):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(40):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(40):     Accept: */*\r\n
+ByeTicket.c(40):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(40):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(40):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2487ms: 298-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(40):     ETag: "1000000000746-2b0-4b654c052c2c0"\r\n
+ByeTicket.c(40):     Accept-Ranges: bytes\r\n
+ByeTicket.c(40):     Content-Length: 688\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=100\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Content-Type: image/gif\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2489ms: 688-byte response body for "http://127.0.0.1:1080/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=10)
+ByeTicket.c(40): t=2490ms: Request done "http://127.0.0.1:1080/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2490ms: 298-byte response headers for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(40):     ETag: "100000000074f-2ef-4b654c052c2c0"\r\n
+ByeTicket.c(40):     Accept-Ranges: bytes\r\n
+ByeTicket.c(40):     Content-Length: 751\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=100\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Content-Type: image/gif\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2492ms: 751-byte response body for "http://127.0.0.1:1080/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=11)
+ByeTicket.c(40): t=2493ms: Request done "http://127.0.0.1:1080/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2493ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(40):     ETag: "1000000000749-2dd-4b654c052c2c0"\r\n
+ByeTicket.c(40):     Accept-Ranges: bytes\r\n
+ByeTicket.c(40):     Content-Length: 733\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=98\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Content-Type: image/gif\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2495ms: 733-byte response body for "http://127.0.0.1:1080/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=9)
+ByeTicket.c(40): t=2496ms: Request done "http://127.0.0.1:1080/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): t=2506ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+ByeTicket.c(40):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(40):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(40):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(40):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(40):     ETag: "100000000073f-2d6-4b654c052c2c0"\r\n
+ByeTicket.c(40):     Accept-Ranges: bytes\r\n
+ByeTicket.c(40):     Content-Length: 726\r\n
+ByeTicket.c(40):     Keep-Alive: timeout=5, max=95\r\n
+ByeTicket.c(40):     Connection: Keep-Alive\r\n
+ByeTicket.c(40):     Content-Type: image/gif\r\n
+ByeTicket.c(40):     \r\n
+ByeTicket.c(40): t=2508ms: 726-byte response body for "http://127.0.0.1:1080/WebTours/images/flights.gif" (RelFrameId=, Internal ID=8)
+ByeTicket.c(40): t=2509ms: Request done "http://127.0.0.1:1080/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(40): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(40): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(57): Notify: Transaction "logon" ended with a "Pass" status (Duration: 0,7134 Wasted Time: 0,0224).
+ByeTicket.c(60): Notify: Transaction "click_button_flights" started.
+ByeTicket.c(64): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(64): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(66): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+ByeTicket.c(66): t=2610ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=2610ms: 494-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=2859ms: 215-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=94\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(66):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=2861ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+ByeTicket.c(66):     268\r\n
+ByeTicket.c(66): t=2863ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66):     0\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=2865ms: 616-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search" (RelFrameId=1, Internal ID=12)
+ByeTicket.c(66):     <!-- \n
+ByeTicket.c(66):      User has returned to the search page.  Since user has already logged on,\n
+ByeTicket.c(66):      we can give them the menu in the navbar.\n
+ByeTicket.c(66):      --->\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     <html>\n
+ByeTicket.c(66):     <title>Web Tours</title>\n
+ByeTicket.c(66):        <!-- Frame Set -->\n
+ByeTicket.c(66):        <frameset cols="160,*" border="1" frameborder="1">\n
+ByeTicket.c(66):           <!-- Navigation Frame -->\n
+ByeTicket.c(66):           <frame src="nav.pl?page=menu&in=flights" name="navbar" \n
+ByeTicket.c(66):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+ByeTicket.c(66):           <!-- Reservation Frame -->\n
+ByeTicket.c(66):           <frame src="reservations.pl?page=welcome" name="info" \n
+ByeTicket.c(66):                 marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>\n
+ByeTicket.c(66):        </frameset>\n
+ByeTicket.c(66):     </html>\n
+ByeTicket.c(66): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+ByeTicket.c(66): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+ByeTicket.c(66): t=2869ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=2870ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=2870ms: 497-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=2871ms: Already connected [2] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=2871ms: 498-byte request headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3160ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Expires: Sun, 12 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=97\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(66):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3161ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+ByeTicket.c(66):     5ca\r\n
+ByeTicket.c(66): t=3161ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66):     0\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3164ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" (RelFrameId=1.1, Internal ID=13)
+ByeTicket.c(66):     <!DOCTYPE html\n
+ByeTicket.c(66):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(66):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(66):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(66):     <head>\n
+ByeTicket.c(66):     <title>Web Tours Navigation Bar</title>\n
+ByeTicket.c(66):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(66):     </head>\n
+ByeTicket.c(66):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     <style>\n
+ByeTicket.c(66):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(66):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+ByeTicket.c(66):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(66):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(66):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+ByeTicket.c(66):     N: none}\n
+ByeTicket.c(66):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+ByeTicket.c(66):     CORATION: underline}\n
+ByeTicket.c(66):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(66):     </style>\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     <BR><BR><center>\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+ByeTicket.c(66):     RC="/WebTours/images/in_flights.gif" \n
+ByeTicket.c(66):     ALT="Search Flights Button"/></A>\n
+ByeTicket.c(66):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+ByeTicket.c(66):     WebTours/images/itinerary.gif" \n
+ByeTicket.c(66):     ALT="Itinerary Button"/></A>\n
+ByeTicket.c(66):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+ByeTicket.c(66):     ours/images/home.gif" \n
+ByeTicket.c(66):     ALT="Home Button"/></A>\n
+ByeTicket.c(66):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+ByeTicket.c(66):     es/signoff.gif" \n
+ByeTicket.c(66):     ALT="SignOff Button"/></A></center>\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     </body>\n
+ByeTicket.c(66):     </html>\n
+ByeTicket.c(66): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+ByeTicket.c(66): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(66): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+ByeTicket.c(66): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(66): t=3172ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3173ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3173ms: 497-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/WebTours/images/in_flights.gif HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3174ms: Already connected [3] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3174ms: 491-byte request headers for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/WebTours/images/home.gif HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3185ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(66):     ETag: "1000000000743-2b0-4b654c052c2c0"\r\n
+ByeTicket.c(66):     Accept-Ranges: bytes\r\n
+ByeTicket.c(66):     Content-Length: 688\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=99\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Content-Type: image/gif\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3187ms: 688-byte response body for "http://127.0.0.1:1080/WebTours/images/home.gif" (RelFrameId=, Internal ID=16)
+ByeTicket.c(66): t=3188ms: Request done "http://127.0.0.1:1080/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3206ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(66):     ETag: "1000000000745-2d6-4b654c052c2c0"\r\n
+ByeTicket.c(66):     Accept-Ranges: bytes\r\n
+ByeTicket.c(66):     Content-Length: 726\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=96\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Content-Type: image/gif\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3208ms: 726-byte response body for "http://127.0.0.1:1080/WebTours/images/in_flights.gif" (RelFrameId=, Internal ID=15)
+ByeTicket.c(66): t=3208ms: Request done "http://127.0.0.1:1080/WebTours/images/in_flights.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3239ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Expires: Sun, 12 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=93\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(66):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3241ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     f84\r\n
+ByeTicket.c(66): t=3241ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66):     112\r\n
+ByeTicket.c(66): t=3241ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66):     0\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3242ms: 4246-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" (RelFrameId=1.2, Internal ID=14)
+ByeTicket.c(66):     <!DOCTYPE html\n
+ByeTicket.c(66):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(66):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(66):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(66):     <head>\n
+ByeTicket.c(66):     <title>Flight Selections</title>\n
+ByeTicket.c(66):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(66):     </head>\n
+ByeTicket.c(66):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(66):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+ByeTicket.c(66):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+ByeTicket.c(66):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+ByeTicket.c(66):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+ByeTicket.c(66):     ockquote>\n
+ByeTicket.c(66):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" o
+ByeTicket.c(66):     nsubmit="" name="DestForm">\n
+ByeTicket.c(66):     <input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"
+ByeTicket.c(66):     ><tr><td align="left">Departure City :</td> <td><select name="depart" >\n
+ByeTicket.c(66):     <option selected="selected" value="Denver">Denver</option>\n
+ByeTicket.c(66):     <option value="Frankfurt">Frankfurt</option>\n
+ByeTicket.c(66):     <option value="London">London</option>\n
+ByeTicket.c(66):     <option value="Los Angeles">Los Angeles</option>\n
+ByeTicket.c(66):     <option value="Paris">Paris</option>\n
+ByeTicket.c(66):     <option value="Portland">Portland</option>\n
+ByeTicket.c(66):     <option value="San Francisco">San Francisco</option>\n
+ByeTicket.c(66):     <option value="Seattle">Seattle</option>\n
+ByeTicket.c(66):     <option value="Sydney">Sydney</option>\n
+ByeTicket.c(66):     <option value="Zurich">Zurich</option>\n
+ByeTicket.c(66):     </select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departD
+ByeTicket.c(66):     ate" value="09/14/2021" size="10" maxlength="10" /> \n
+ByeTicket.c(66):     <!-- Departure Date Applet -->\n
+ByeTicket.c(66):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+ByeTicket.c(66):     t=28 BORDER=0>\n
+ByeTicket.c(66):        <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">\n
+ByeTicket.c(66):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+ByeTicket.c(66):        <PARAM NAME=HtmlEditIndex  VALUE=2>\n
+ByeTicket.c(66):        <PARAM NAME=AutoClose      VALUE=1>\n
+ByeTicket.c(66):        <PARAM NAME=Label          VALUE="...">\n
+ByeTicket.c(66):     </APPLET>\n
+ByeTicket.c(66):     </td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >\n
+ByeTicket.c(66):     <option selected="selected" value="Denver">Denver</option>\n
+ByeTicket.c(66):     <option value="Frankfurt">Frankfurt</option>\n
+ByeTicket.c(66):     <option value="London">London</option>\n
+ByeTicket.c(66):     <option value="Los Angeles">Los Angeles</option>\n
+ByeTicket.c(66):     <option value="Paris">Paris</option>\n
+ByeTicket.c(66):     <option value="Portland">Portland</option>\n
+ByeTicket.c(66):     <option value="San Francisco">San Francisco</option>\n
+ByeTicket.c(66):     <option value="Seattle">Seattle</option>\n
+ByeTicket.c(66):     <option value="Sydney">Sydney</option>\n
+ByeTicket.c(66):     <option value="Zurich">Zurich</option>\n
+ByeTicket.c(66):     </select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate
+ByeTicket.c(66):     " value="09/15/2021" size="10" maxlength="10" /> \n
+ByeTicket.c(66):     <!-- Return Date Applet -->\n
+ByeTicket.c(66):     <APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Heigh
+ByeTicket.c(66):     t=28 BORDER=0>\n
+ByeTicket.c(66):        <PARAM NAME=CalenderTitle  VALUE="Select Return Date">\n
+ByeTicket.c(66):        <PARAM NAME=HtmlFormIndex  VALUE=0>\n
+ByeTicket.c(66):        <PARAM NAME=HtmlEditIndex  VALUE=4>\n
+ByeTicket.c(66):        <PARAM NAME=AutoClose      VALUE=1>\n
+ByeTicket.c(66):        <PARAM NAME=Label          VALUE="...">\n
+ByeTicket.c(66):     </APPLET>\n
+ByeTicket.c(66):     </td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="num
+ByeTicket.c(66):     Passengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="c
+ByeTicket.c(66):     heckbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating 
+ByeTicket.c(66):     Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name=
+ByeTicket.c(66):     "seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" 
+ByeTicket.c(66):     value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="No
+ByeTicket.c(66):     ne" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name
+ByeTicket.c(66):     ="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType"
+ByeTicket.c(66):      value="Business" />Business</label><br /> <label><input type="radio" name="seatType" valu
+ByeTicket.c(66):     e="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <t
+ByeTicket.c(66):     r><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/ima
+ByeTicket.c(66):     ges/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifi
+ByeTicket.c(66):     elds" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><inp
+ByeTicket.c(66):     ut type="hidden" name=".cgifields" value="seatPref"  /></div></form>\n
+ByeTicket.c(66):     </blockquote>\n
+ByeTicket.c(66):     \n
+ByeTicket.c(66):     </body>\n
+ByeTicket.c(66):     </html>\n
+ByeTicket.c(66): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+ByeTicket.c(66): t=3250ms: Request done "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3251ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(66): t=3251ms: 499-byte request headers for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+ByeTicket.c(66):     GET http://127.0.0.1:1080/WebTours/images/button_next.gif HTTP/1.1\r\n
+ByeTicket.c(66):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome\r\n
+ByeTicket.c(66):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(66):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(66):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(66):     Accept: */*\r\n
+ByeTicket.c(66):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(66):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(66):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3299ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+ByeTicket.c(66):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(66):     Date: Mon, 13 Sep 2021 12:50:45 GMT\r\n
+ByeTicket.c(66):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(66):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(66):     ETag: "100000000073c-2f6-4b654c052c2c0"\r\n
+ByeTicket.c(66):     Accept-Ranges: bytes\r\n
+ByeTicket.c(66):     Content-Length: 758\r\n
+ByeTicket.c(66):     Keep-Alive: timeout=5, max=92\r\n
+ByeTicket.c(66):     Connection: Keep-Alive\r\n
+ByeTicket.c(66):     Content-Type: image/gif\r\n
+ByeTicket.c(66):     \r\n
+ByeTicket.c(66): t=3300ms: 758-byte response body for "http://127.0.0.1:1080/WebTours/images/button_next.gif" (RelFrameId=, Internal ID=17)
+ByeTicket.c(66): t=3301ms: Request done "http://127.0.0.1:1080/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(66): Registered web_reg_find successful for "Text=User has returned to the search page." (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(66): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(76): Notify: Transaction "click_button_flights" ended with a "Pass" status (Duration: 0,7736 Wasted Time: 0,0138).
+ByeTicket.c(79): Notify: Transaction "find_flight" started.
+ByeTicket.c(83): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(83): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(85): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(85): Warning: The string 'depart' with parameter delimiters is not a parameter.
+ByeTicket.c(85): Warning: The string 'arrive' with parameter delimiters is not a parameter.
+ByeTicket.c(85): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(87): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+ByeTicket.c(87): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(95): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+ByeTicket.c(95): Warning: The string 'depart' with parameter delimiters is not a parameter.
+ByeTicket.c(95): Notify: Parameter Substitution: parameter "DepData" =  "09/13/2021"
+ByeTicket.c(95): Warning: The string 'arrive' with parameter delimiters is not a parameter.
+ByeTicket.c(95): Notify: Parameter Substitution: parameter "ArrData" =  "09/14/2021"
+ByeTicket.c(95): Notify: Next row for parameter Row = 1 [table  = Row].
+ByeTicket.c(95): Notify: Parameter Substitution: parameter "Row" =  "Aisle"
+ByeTicket.c(95): Notify: Parameter Substitution: parameter "Klass" =  "First"
+ByeTicket.c(95): t=3434ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(95): t=3434ms: 562-byte request headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     POST http://127.0.0.1:1080/cgi-bin/reservations.pl HTTP/1.1\r\n
+ByeTicket.c(95):     Content-Type: application/x-www-form-urlencoded\r\n
+ByeTicket.c(95):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome\r\n
+ByeTicket.c(95):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(95):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(95):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(95):     Accept: */*\r\n
+ByeTicket.c(95):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(95):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(95):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(95):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(95):     Content-Length: 250\r\n
+ByeTicket.c(95):     \r\n
+ByeTicket.c(95): t=3436ms: 250-byte request body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     advanceDiscount=0&depart=%7Bdepart%7D&departDate=09%2F13%2F2021&arrive=%7Barrive%7D&return
+ByeTicket.c(95):     Date=09%2F14%2F2021&numPassengers=1&seatPref=Aisle&seatType=First&findFlights.x=51&findFli
+ByeTicket.c(95):     ghts.y=13&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref
+ByeTicket.c(95): t=3701ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(95):     Date: Mon, 13 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(95):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(95):     Expires: Sun, 12 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(95):     Keep-Alive: timeout=5, max=91\r\n
+ByeTicket.c(95):     Connection: Keep-Alive\r\n
+ByeTicket.c(95):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(95):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(95):     \r\n
+ByeTicket.c(95): t=3703ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     96b\r\n
+ByeTicket.c(95): t=3703ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     \r\n
+ByeTicket.c(95):     0\r\n
+ByeTicket.c(95):     \r\n
+ByeTicket.c(95): t=3704ms: 2411-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=18)
+ByeTicket.c(95):     <!DOCTYPE html\n
+ByeTicket.c(95):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(95):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(95):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(95):     <head>\n
+ByeTicket.c(95):     <title>Flight Selections</title>\n
+ByeTicket.c(95):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(95):     </head>\n
+ByeTicket.c(95):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(95):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+ByeTicket.c(95):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+ByeTicket.c(95):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+ByeTicket.c(95):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><bl
+ByeTicket.c(95):     ockquote>\n
+ByeTicket.c(95):     <form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">\n
+ByeTicket.c(95):     \n
+ByeTicket.c(95):     <center>\n
+ByeTicket.c(95):     <!-- From {depart} () To {arrive} () -->\n
+ByeTicket.c(95):     <table cellspacing="2" border="0" width="50%">\n
+ByeTicket.c(95):     <blockquote>Flight departing from <B>{depart}</B> to <B>{arrive}</B> on <B>09/13/2021</B><
+ByeTicket.c(95):     BR/><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>
+ByeTicket.c(95):     \n
+ByeTicket.c(95):           \t\t<td align="center"><font color="white"><B>Departure time</B>\n
+ByeTicket.c(95):           \t\t<td align="center"><font color="white"><B>Cost</B>\n
+ByeTicket.c(95):     <tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="
+ByeTicket.c(95):     0;0;09/13/2021" checked="checked" >Blue Sky Air 0<td align="center">8am<td align="center">
+ByeTicket.c(95):     $ 0</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFl
+ByeTicket.c(95):     ight" value="1;0;09/13/2021">Blue Sky Air 1<td align="center">1pm<td align="center">$ 0</T
+ByeTicket.c(95):     D></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" 
+ByeTicket.c(95):     value="2;0;09/13/2021">Blue Sky Air 2<td align="center">5pm<td align="center">$ 0</TD></TR
+ByeTicket.c(95):     ><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value=
+ByeTicket.c(95):     "3;0;09/13/2021">Blue Sky Air 3<td align="center">11pm<td align="center">$ 0</TD></TR></ta
+ByeTicket.c(95):     ble>\n
+ByeTicket.c(95):     \n
+ByeTicket.c(95):     <input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceD
+ByeTicket.c(95):     iscount" value="0"  /><input type="hidden" name="seatType" value="First"  /><input type="h
+ByeTicket.c(95):     idden" name="seatPref" value="Aisle"  />\n
+ByeTicket.c(95):     <P><center><table width=80% cellspacing=1><tr><td align=center>\n
+ByeTicket.c(95):     <input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0
+ByeTicket.c(95):     " />\n
+ByeTicket.c(95):     <td>&nbsp;<td align=center></table></center></form></center>\n
+ByeTicket.c(95):     </blockquote>\n
+ByeTicket.c(95):     \n
+ByeTicket.c(95):     </body>\n
+ByeTicket.c(95):     </html>
+ByeTicket.c(95): Notify: Saving Parameter "OBF = 0;0;09/13/2021".
+ByeTicket.c(95): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(95): t=3707ms: Request done "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+ByeTicket.c(95): Registered web_reg_find successful for "Text=Flight Selections" (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(95): Registered web_reg_find successful for "Text=<B>{depart}</B> to <B>{arrive}</B>" (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(95): web_submit_data("reservations.pl") was successful, 2411 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(119): Notify: Transaction "find_flight" ended with a "Pass" status (Duration: 0,3703 Wasted Time: 0,0091).
+ByeTicket.c(122): Notify: Transaction "flight_selection" started.
+ByeTicket.c(126): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(126): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(128): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+ByeTicket.c(128): Notify: Parameter Substitution: parameter "OBF" =  "0;0;09/13/2021"
+ByeTicket.c(128): Notify: Parameter Substitution: parameter "Klass" =  "First"
+ByeTicket.c(128): Notify: Next row for parameter Row = 1 [table  = Row].
+ByeTicket.c(128): Notify: Parameter Substitution: parameter "Row" =  "Aisle"
+ByeTicket.c(128): t=3787ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(128): t=3787ms: 549-byte request headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     POST http://127.0.0.1:1080/cgi-bin/reservations.pl HTTP/1.1\r\n
+ByeTicket.c(128):     Content-Type: application/x-www-form-urlencoded\r\n
+ByeTicket.c(128):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl\r\n
+ByeTicket.c(128):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(128):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(128):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(128):     Accept: */*\r\n
+ByeTicket.c(128):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(128):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(128):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(128):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(128):     Content-Length: 140\r\n
+ByeTicket.c(128):     \r\n
+ByeTicket.c(128): t=3788ms: 140-byte request body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     outboundFlight=0%3B0%3B09%2F13%2F2021&numPassengers=1&advanceDiscount=0&seatType=First&sea
+ByeTicket.c(128):     tPref=Aisle&reserveFlights.x=55&reserveFlights.y=9
+ByeTicket.c(128): t=4072ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(128):     Date: Mon, 13 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(128):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(128):     Expires: Sun, 12 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(128):     Keep-Alive: timeout=5, max=90\r\n
+ByeTicket.c(128):     Connection: Keep-Alive\r\n
+ByeTicket.c(128):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(128):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(128):     \r\n
+ByeTicket.c(128): t=4074ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     a85\r\n
+ByeTicket.c(128): t=4075ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     \r\n
+ByeTicket.c(128):     0\r\n
+ByeTicket.c(128):     \r\n
+ByeTicket.c(128): t=4075ms: 2693-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=19)
+ByeTicket.c(128):     <!DOCTYPE html\n
+ByeTicket.c(128):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(128):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(128):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(128):     <head>\n
+ByeTicket.c(128):     <title>Flight Reservation</title>\n
+ByeTicket.c(128):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(128):     </head>\n
+ByeTicket.c(128):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(128):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+ByeTicket.c(128):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+ByeTicket.c(128):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+ByeTicket.c(128):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Payment Details</font></b></h1
+ByeTicket.c(128):     ><blockquote><form method="post" action="reservations.pl" enctype="application/x-www-form-
+ByeTicket.c(128):     urlencoded" onsubmit="return true ;">\n
+ByeTicket.c(128):     <table><tr><td align="right">First Name : <td><input type="text" name="firstName" value="J
+ByeTicket.c(128):     ojo" size="15" /><tr><td align="right">Last Name : <td><input type="text" name="lastName" 
+ByeTicket.c(128):     value="Bean&#10;" size="15" /><tr><td align="right">Street Address : <td colspan="3"><inpu
+ByeTicket.c(128):     t type="text" name="address1"  size="30" /><tr><td align="right">City/State/Zip : <td cols
+ByeTicket.c(128):     pan="3"><input type="text" name="address2"  size="30" /><tr><td align="right">Passenger Na
+ByeTicket.c(128):     mes : <td colspan="3"><input type="text" name="pass1" value="Jojo Bean&#10;" size="30" /><
+ByeTicket.c(128):     tr><td height="10"><tr><td height="10" align="center" colspan="4">Total for 1 ticket(s) is
+ByeTicket.c(128):      = $ 0<tr><td align="right">Credit Card : <td><input type="text" name="creditCard"  size="
+ByeTicket.c(128):     20" maxlength="20" /><td align="right">Exp Date : <td><input type="text" name="expDate" va
+ByeTicket.c(128):     lue="&#10;" size="5" maxlength="5" /><tr><TD><td colspan="3" align="left"><label><input ty
+ByeTicket.c(128):     pe="checkbox" name="saveCC" value="on" />Save this Credit Card Information</label><input t
+ByeTicket.c(128):     ype="hidden" name="oldCCOption" value=""  /></table><input type="hidden" name="numPassenge
+ByeTicket.c(128):     rs" value="1"  /><input type="hidden" name="seatType" value="First"  /><input type="hidden
+ByeTicket.c(128):     " name="seatPref" value="Aisle"  /><input type="hidden" name="outboundFlight" value="0;0;0
+ByeTicket.c(128):     9/13/2021"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden
+ByeTicket.c(128):     " name="returnFlight" value=""  /><input type="hidden" name="JSFormSubmit" value="off"  />
+ByeTicket.c(128):     <center><table width=80% cellspacing=1><tr><td align=center>\n
+ByeTicket.c(128):     <input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" />
+ByeTicket.c(128):     <div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>\n
+ByeTicket.c(128):     <td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="applicati
+ByeTicket.c(128):     on/x-www-form-urlencoded" onsubmit="void(0);">\n
+ByeTicket.c(128):     </form></table></center></blockquote>\n
+ByeTicket.c(128):     </body>\n
+ByeTicket.c(128):     </html>
+ByeTicket.c(128): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(128): t=4080ms: Request done "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+ByeTicket.c(128): Registered web_reg_find successful for "Text=Flight Reservation" (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(128): web_submit_data("reservations.pl_2") was successful, 2693 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(146): Notify: Transaction "flight_selection" ended with a "Pass" status (Duration: 0,3617 Wasted Time: 0,0071).
+ByeTicket.c(149): Notify: Transaction "payment_details" started.
+ByeTicket.c(153): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(153): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(155): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+ByeTicket.c(155): Notify: Next row for parameter FirstName = 1 [table  = FirstName].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "FirstName" =  "Jojo"
+ByeTicket.c(155): Notify: Next row for parameter LastName = 1 [table  = LastName].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "LastName" =  "Bean"
+ByeTicket.c(155): Notify: Next row for parameter Street = 1 [table  = Street].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "Street" =  "Silver Hill"
+ByeTicket.c(155): Notify: Next row for parameter City = 1 [table  = City].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "City" =  "Berlin"
+ByeTicket.c(155): Notify: Next row for parameter PassName = 1 [table  = PassName].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "PassName" =  "Jojo Bean"
+ByeTicket.c(155): Notify: Next row for parameter CreditCard = 1 [table  = CreditCard].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "CreditCard" =  "12345678"
+ByeTicket.c(155): Notify: Next row for parameter ExpDate = 1 [table  = ExpDate].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "ExpDate" =  "09/23"
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "Klass" =  "First"
+ByeTicket.c(155): Notify: Next row for parameter Row = 1 [table  = Row].
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "Row" =  "Aisle"
+ByeTicket.c(155): Notify: Parameter Substitution: parameter "OBF" =  "0;0;09/13/2021"
+ByeTicket.c(155): t=4169ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(155): t=4169ms: 549-byte request headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     POST http://127.0.0.1:1080/cgi-bin/reservations.pl HTTP/1.1\r\n
+ByeTicket.c(155):     Content-Type: application/x-www-form-urlencoded\r\n
+ByeTicket.c(155):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl\r\n
+ByeTicket.c(155):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(155):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(155):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(155):     Accept: */*\r\n
+ByeTicket.c(155):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(155):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(155):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&last
+ByeTicket.c(155):     Name&Bean%0A&address1&&creditCard&&expDate&%0A\r\n
+ByeTicket.c(155):     Content-Length: 313\r\n
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155): t=4170ms: 313-byte request body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     firstName=Jojo&lastName=Bean&address1=Silver+Hill&address2=Berlin&pass1=Jojo+Bean&creditCa
+ByeTicket.c(155):     rd=12345678&expDate=09%2F23&oldCCOption=&numPassengers=1&seatType=First&seatPref=Aisle&out
+ByeTicket.c(155):     boundFlight=0%3B0%3B09%2F13%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFli
+ByeTicket.c(155):     ghts.x=24&buyFlights.y=11&.cgifields=saveCC
+ByeTicket.c(155): t=4348ms: 361-byte response headers for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(155):     Date: Mon, 13 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(155):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(155):     Expires: Sun, 12 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(155):     Set-Cookie: MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&B
+ByeTicket.c(155):     ean%0A; path=/\r\n
+ByeTicket.c(155):     Keep-Alive: timeout=5, max=89\r\n
+ByeTicket.c(155):     Connection: Keep-Alive\r\n
+ByeTicket.c(155):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(155):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155): t=4350ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     99d\r\n
+ByeTicket.c(155): t=4350ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155):     0\r\n
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155): t=4351ms: 2461-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/reservations.pl" (RelFrameId=1, Internal ID=20)
+ByeTicket.c(155):     <!DOCTYPE html\n
+ByeTicket.c(155):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(155):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(155):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(155):     <head>\n
+ByeTicket.c(155):     <title>Reservation Made!</title>\n
+ByeTicket.c(155):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(155):     </head>\n
+ByeTicket.c(155):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(155):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+ByeTicket.c(155):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+ByeTicket.c(155):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black
+ByeTicket.c(155):     }</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockq
+ByeTicket.c(155):     uote>\n
+ByeTicket.c(155):     <CENTER>\n
+ByeTicket.c(155):     <small><B>Thank you for booking through Web Tours.</B></small>\n
+ByeTicket.c(155):     <BR/>\n
+ByeTicket.c(155):     <BR/>\n
+ByeTicket.c(155):     <!-- Customer Name header -->\n
+ByeTicket.c(155):     <Table width="85%" border="0" cellspacing="0" >\n
+ByeTicket.c(155):       <TR bgcolor="#5E7884">\n
+ByeTicket.c(155):          <TD colspan="2" align="center">\n
+ByeTicket.c(155):             <font color="white"><b>JojoBean's Flight Invoice</b></font>\n
+ByeTicket.c(155):          </TD>\n
+ByeTicket.c(155):          <TD width="160" align="right">\n
+ByeTicket.c(155):              <font color="white"><small>Mon Sep 13 15:50:46 2021\n
+ByeTicket.c(155):     </small>\n
+ByeTicket.c(155):          </TD>\n
+ByeTicket.c(155):       </TR>\n
+ByeTicket.c(155):     </Table>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):     <Table width="85%" border="0" cellspacing="1" >\n
+ByeTicket.c(155):     <!-- Flight Item header -->\n
+ByeTicket.c(155):       <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(155):          <TD colspan="2" align="left">\n
+ByeTicket.c(155):              Flights Reservation Requests:\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD align="center">Cost\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):       </TR>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):     <!-- Flight reserved -->\n
+ByeTicket.c(155):     <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(155):         <TD valign="top">1.</TD>\n
+ByeTicket.c(155):         <TD align="left">\n
+ByeTicket.c(155):            A First Class ticket\n
+ByeTicket.c(155):      from Denver to Denver.</u></b>\n
+ByeTicket.c(155):     <br/>\n
+ByeTicket.c(155):     <center>\n
+ByeTicket.c(155):            <i>\n
+ByeTicket.c(155):               09/13/2021 :  8am : Flight 0 leaves Denver  for Denver.<br>\n
+ByeTicket.c(155):            <br/>\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD valign="top">\n
+ByeTicket.c(155):              $0\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):       </TR>\n
+ByeTicket.c(155):     <!-- Total Cost -->\n
+ByeTicket.c(155):       <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(155):         <TD>*\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD > Total Cost\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD>\n
+ByeTicket.c(155):            <b> $0 </b>\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):       </TR>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):       <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(155):         <TD>-\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD >\n
+ByeTicket.c(155):            Total Charged to Credit Card # 12345678\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD>\n
+ByeTicket.c(155):            <b> $0 </b>\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):       </TR>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):       <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(155):         <TD>*\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD >\n
+ByeTicket.c(155):             Credit Account Balance\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):         <TD>\n
+ByeTicket.c(155):            <b> $0.00 </b>\n
+ByeTicket.c(155):         </TD>\n
+ByeTicket.c(155):       </TR></Table>\n
+ByeTicket.c(155):     <BR/>\n
+ByeTicket.c(155):     <Table width="85%" border="0">\n
+ByeTicket.c(155):       <tr>\n
+ByeTicket.c(155):         <td align=right>\n
+ByeTicket.c(155):     <form method="post" action="" enctype="application/x-www-form-urlencoded">\n
+ByeTicket.c(155):     <input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" 
+ByeTicket.c(155):     /></form>    </td>\n
+ByeTicket.c(155):       </tr>\n
+ByeTicket.c(155):     </Table>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):     </Center>\n
+ByeTicket.c(155):     \n
+ByeTicket.c(155):     </body>\n
+ByeTicket.c(155):     </html>
+ByeTicket.c(155): Found resource "http://127.0.0.1:1080/WebTours/images/bookanother.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+ByeTicket.c(155): t=4357ms: Request done "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26000]
+ByeTicket.c(155): t=4357ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(155): t=4357ms: 462-byte request headers for "http://127.0.0.1:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=21)
+ByeTicket.c(155):     GET http://127.0.0.1:1080/WebTours/images/bookanother.gif HTTP/1.1\r\n
+ByeTicket.c(155):     Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl\r\n
+ByeTicket.c(155):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(155):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(155):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(155):     Accept: */*\r\n
+ByeTicket.c(155):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(155):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(155):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(155):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155): t=4386ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=21)
+ByeTicket.c(155):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(155):     Date: Mon, 13 Sep 2021 12:50:46 GMT\r\n
+ByeTicket.c(155):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(155):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(155):     ETag: "100000000073b-326-4b654c052c2c0"\r\n
+ByeTicket.c(155):     Accept-Ranges: bytes\r\n
+ByeTicket.c(155):     Content-Length: 806\r\n
+ByeTicket.c(155):     Keep-Alive: timeout=5, max=88\r\n
+ByeTicket.c(155):     Connection: Keep-Alive\r\n
+ByeTicket.c(155):     Content-Type: image/gif\r\n
+ByeTicket.c(155):     \r\n
+ByeTicket.c(155): t=4387ms: 806-byte response body for "http://127.0.0.1:1080/WebTours/images/bookanother.gif" (RelFrameId=, Internal ID=21)
+ByeTicket.c(155): t=4387ms: Request done "http://127.0.0.1:1080/WebTours/images/bookanother.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(155): Registered web_reg_find successful for "Text=Reservation Made!" (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(155): web_submit_data("reservations.pl_3") was successful, 3267 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(184): Notify: Transaction "payment_details" ended with a "Pass" status (Duration: 0,2952 Wasted Time: 0,0052).
+ByeTicket.c(187): Notify: Transaction "click_button_itinerary" started.
+ByeTicket.c(191): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(191): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(193): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+ByeTicket.c(193): t=4475ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4475ms: 476-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=22)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4570ms: 215-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=22)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=87\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(193):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4576ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=22)
+ByeTicket.c(193):     24f\r\n
+ByeTicket.c(193): t=4576ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=22)
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193):     0\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4577ms: 591-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=22)
+ByeTicket.c(193):     <!-- \n
+ByeTicket.c(193):      User wants the intineraries.  Since user has already logged on,\n
+ByeTicket.c(193):      we can give them the menu in the navbar.\n
+ByeTicket.c(193):      --->\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <html>\n
+ByeTicket.c(193):     <title>Web Tours</title>\n
+ByeTicket.c(193):        <!-- Frame Set -->\n
+ByeTicket.c(193):        <frameset cols="160,*" border="1" frameborder="1">\n
+ByeTicket.c(193):           <!-- Navigation Frame -->\n
+ByeTicket.c(193):           <frame src="nav.pl?page=menu&in=itinerary" name="navbar" \n
+ByeTicket.c(193):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(193):           <!-- Itinerary Frame -->\n
+ByeTicket.c(193):           <frame src="itinerary.pl" name="info" \n
+ByeTicket.c(193):                 marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(193):        </frameset>\n
+ByeTicket.c(193):     </html>\n
+ByeTicket.c(193): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+ByeTicket.c(193): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+ByeTicket.c(193): t=4580ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4580ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4580ms: 478-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=23)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4581ms: Already connected [2] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4581ms: 461-byte request headers for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=24)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/cgi-bin/itinerary.pl HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4903ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=23)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Expires: Sun, 12 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=86\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(193):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4905ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=23)
+ByeTicket.c(193):     5ca\r\n
+ByeTicket.c(193): t=4905ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=23)
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193):     0\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4906ms: 1482-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=23)
+ByeTicket.c(193):     <!DOCTYPE html\n
+ByeTicket.c(193):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(193):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(193):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(193):     <head>\n
+ByeTicket.c(193):     <title>Web Tours Navigation Bar</title>\n
+ByeTicket.c(193):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(193):     </head>\n
+ByeTicket.c(193):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <style>\n
+ByeTicket.c(193):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(193):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+ByeTicket.c(193):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(193):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(193):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+ByeTicket.c(193):     N: none}\n
+ByeTicket.c(193):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+ByeTicket.c(193):     CORATION: underline}\n
+ByeTicket.c(193):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(193):     </style>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <BR><BR><center>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" S
+ByeTicket.c(193):     RC="/WebTours/images/flights.gif" \n
+ByeTicket.c(193):     ALT="Search Flights Button"/></A>\n
+ByeTicket.c(193):     <br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/
+ByeTicket.c(193):     WebTours/images/in_itinerary.gif" \n
+ByeTicket.c(193):     ALT="Itinerary Button"/></A>\n
+ByeTicket.c(193):     <br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebT
+ByeTicket.c(193):     ours/images/home.gif" \n
+ByeTicket.c(193):     ALT="Home Button"/></A>\n
+ByeTicket.c(193):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/imag
+ByeTicket.c(193):     es/signoff.gif" \n
+ByeTicket.c(193):     ALT="SignOff Button"/></A></center>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     </body>\n
+ByeTicket.c(193):     </html>\n
+ByeTicket.c(193): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(193): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+ByeTicket.c(193): Resource "http://127.0.0.1:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(193): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(193): t=4909ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4910ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4910ms: 477-byte request headers for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=25)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/WebTours/images/in_itinerary.gif HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4969ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=25)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(193):     ETag: "1000000000747-2dd-4b654c052c2c0"\r\n
+ByeTicket.c(193):     Accept-Ranges: bytes\r\n
+ByeTicket.c(193):     Content-Length: 733\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=85\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Content-Type: image/gif\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4971ms: 733-byte response body for "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=25)
+ByeTicket.c(193): t=4971ms: Request done "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4976ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=24)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Expires: Sun, 12 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=95\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(193):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4978ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=24)
+ByeTicket.c(193):     a36\r\n
+ByeTicket.c(193): t=4978ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=24)
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193):     0\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4979ms: 2614-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/itinerary.pl" (RelFrameId=1.2, Internal ID=24)
+ByeTicket.c(193):     <!DOCTYPE html\n
+ByeTicket.c(193):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(193):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(193):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(193):     <head>\n
+ByeTicket.c(193):     <title>Flights List</title>\n
+ByeTicket.c(193):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(193):     </head>\n
+ByeTicket.c(193):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(193):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+ByeTicket.c(193):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+ByeTicket.c(193):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+ByeTicket.c(193):     </style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><block
+ByeTicket.c(193):     quote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded
+ByeTicket.c(193):     ">\n
+ByeTicket.c(193):     <center>\n
+ByeTicket.c(193):     <TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">\n
+ByeTicket.c(193):     <TR bgcolor="#5E7884">\n
+ByeTicket.c(193):       <TD colspan="4" align="center"><font color="white"><B>Jojo Bean\n
+ByeTicket.c(193):      's Flight Transaction Summary</B></color></TD></TR>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <!-- Flight #1 -->\n
+ByeTicket.c(193):     <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(193):       <TD width="5%" rowspan="2" align="left" valign="top">\n
+ByeTicket.c(193):     <b>\n
+ByeTicket.c(193):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+ByeTicket.c(193):     <input type="hidden" name="flightID" value="21029-7-JB"  />\n
+ByeTicket.c(193):       </TD>\n
+ByeTicket.c(193):       <TD width="45%" valign="top">\n
+ByeTicket.c(193):           <b>&nbsp;&nbsp;A First class ticket for :</b><br/>\n
+ByeTicket.c(193):           <center><table border="0" width="85%"><tr><td>\n
+ByeTicket.c(193):           <li><i>Jojo Bean\n
+ByeTicket.c(193):           <li><i></i>\n
+ByeTicket.c(193):           </td></tr></table></center>\n
+ByeTicket.c(193):       </TD>\n
+ByeTicket.c(193):       <TD width="5%" >.<br/>.<br/>.<br/>.</TD>\n
+ByeTicket.c(193):       <TD width="45%" valign=top><b>Invoice sent to:</b><br/>\n
+ByeTicket.c(193):           <center>\n
+ByeTicket.c(193):           <Table width="80%" cellspacing="0" > <tr> <td>\n
+ByeTicket.c(193):               Jojo Bean\n
+ByeTicket.c(193):     <br/>\n
+ByeTicket.c(193):               Silver Hill<br/>\n
+ByeTicket.c(193):               Berlin<br/>\n
+ByeTicket.c(193):               <br/>\n
+ByeTicket.c(193):               Total Charge: $ 0 <BR/> (CC: x-5678)\n
+ByeTicket.c(193):           </td> </tr> </table>\n
+ByeTicket.c(193):           </center>\n
+ByeTicket.c(193):       </TD>\n
+ByeTicket.c(193):     </TR>\n
+ByeTicket.c(193):     <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(193):       <TD COLSPAN="3">\n
+ByeTicket.c(193):       <b>Flight Details:</b><BR/>  <center>\n
+ByeTicket.c(193):       09/13/2021\n
+ByeTicket.c(193):      :  8am : Flight 0 leaves Denver  for Denver.<br>  </center>\n
+ByeTicket.c(193):       </TD>\n
+ByeTicket.c(193):     </TR>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <TR bgcolor="#EFF2F7">\n
+ByeTicket.c(193):       <TD COLSPAN="4">\n
+ByeTicket.c(193):       <hr/>\n
+ByeTicket.c(193):       </TD>\n
+ByeTicket.c(193):     </TR>\n
+ByeTicket.c(193):     <TR>\n
+ByeTicket.c(193):        <TD align="center" COLSPAN="4">\n
+ByeTicket.c(193):        <b>A total of 1 scheduled flights.</font></b>\n
+ByeTicket.c(193):        </TD>\n
+ByeTicket.c(193):     </TR>\n
+ByeTicket.c(193):     </TABLE>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">\n
+ByeTicket.c(193):     <TR>\n
+ByeTicket.c(193):     <TD align="left" width="50%" >\n
+ByeTicket.c(193):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+ByeTicket.c(193):     er="0" /></TD>\n
+ByeTicket.c(193):     <TD align="right" width="50%" >\n
+ByeTicket.c(193):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+ByeTicket.c(193):     f" border="0" /></TD>\n
+ByeTicket.c(193):     </TABLE>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     <div><input type="hidden" name=".cgifields" value="1"  /></div></form>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     </center>\n
+ByeTicket.c(193):     \n
+ByeTicket.c(193):     </body>\n
+ByeTicket.c(193):     </html>
+ByeTicket.c(193): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+ByeTicket.c(193): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+ByeTicket.c(193): t=4986ms: Request done "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4986ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4987ms: 465-byte request headers for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=26)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/itinerary.pl\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4988ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=4988ms: 469-byte request headers for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=27)
+ByeTicket.c(193):     GET http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+ByeTicket.c(193):     Referer: http://127.0.0.1:1080/cgi-bin/itinerary.pl\r\n
+ByeTicket.c(193):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(193):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(193):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(193):     Accept: */*\r\n
+ByeTicket.c(193):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(193):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(193):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=4998ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=26)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(193):     ETag: "100000000073e-33f-4b654c052c2c0"\r\n
+ByeTicket.c(193):     Accept-Ranges: bytes\r\n
+ByeTicket.c(193):     Content-Length: 831\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=84\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Content-Type: image/gif\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=5000ms: 831-byte response body for "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=26)
+ByeTicket.c(193): t=5000ms: Request done "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): t=5004ms: 297-byte response headers for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=27)
+ByeTicket.c(193):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(193):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(193):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(193):     Last-Modified: Thu, 12 Jan 2012 13:30:27 GMT\r\n
+ByeTicket.c(193):     ETag: "100000000073d-2e6-4b654c052c2c0"\r\n
+ByeTicket.c(193):     Accept-Ranges: bytes\r\n
+ByeTicket.c(193):     Content-Length: 742\r\n
+ByeTicket.c(193):     Keep-Alive: timeout=5, max=94\r\n
+ByeTicket.c(193):     Connection: Keep-Alive\r\n
+ByeTicket.c(193):     Content-Type: image/gif\r\n
+ByeTicket.c(193):     \r\n
+ByeTicket.c(193): t=5005ms: 742-byte response body for "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=27)
+ByeTicket.c(193): t=5006ms: Request done "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+ByeTicket.c(193): Registered web_reg_find successful for "Text= User wants the intineraries." (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(193): web_url("Itinerary Button") was successful, 6993 body bytes, 1616 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(203): Notify: Transaction "click_button_itinerary" ended with a "Pass" status (Duration: 0,6073 Wasted Time: 0,0129).
+ByeTicket.c(206): Notify: Transaction "logout" started.
+ByeTicket.c(210): web_reg_find started  	[MsgId: MMSG-26355]
+ByeTicket.c(210): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+ByeTicket.c(212): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+ByeTicket.c(212): t=5096ms: Already connected [0] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(212): t=5096ms: 468-byte request headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=28)
+ByeTicket.c(212):     GET http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1 HTTP/1.1\r\n
+ByeTicket.c(212):     Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home\r\n
+ByeTicket.c(212):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(212):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(212):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(212):     Accept: */*\r\n
+ByeTicket.c(212):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(212):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(212):     Cookie: MSO=SID&1631537443; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&addr
+ByeTicket.c(212):     ess1&&lastName&Bean%0A\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5304ms: 327-byte response headers for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=28)
+ByeTicket.c(212):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(212):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(212):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(212):     Set-Cookie: MSO=SID&1631537447; path=/\r\n
+ByeTicket.c(212):     Set-Cookie: MTUserInfo=; path=/; expires=Sun, 12-Sep-2021 12:50:47 GMT\r\n
+ByeTicket.c(212):     Keep-Alive: timeout=5, max=93\r\n
+ByeTicket.c(212):     Connection: Keep-Alive\r\n
+ByeTicket.c(212):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(212):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5306ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=28)
+ByeTicket.c(212):     2ae\r\n
+ByeTicket.c(212): t=5306ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=28)
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212):     0\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5307ms: 686-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1" (RelFrameId=1, Internal ID=28)
+ByeTicket.c(212):     <!-- \n
+ByeTicket.c(212):      A Session ID has been created and loaded into a cookie called MSO.\n
+ByeTicket.c(212):      Also, the server options have been loaded into the cookie called\n
+ByeTicket.c(212):      MSO as well.  The server options can be set via the Admin page.\n
+ByeTicket.c(212):      --->\n
+ByeTicket.c(212):     \n
+ByeTicket.c(212):     <html>\n
+ByeTicket.c(212):     <title>Web Tours</title>\n
+ByeTicket.c(212):        <!-- Frame Set -->\n
+ByeTicket.c(212):        <frameset cols="160,*" border="1" frameborder="1">\n
+ByeTicket.c(212):           <!-- Navigation Frame -->\n
+ByeTicket.c(212):           <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" \n
+ByeTicket.c(212):                 noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(212):           <!-- Home Frame -->\n
+ByeTicket.c(212):           <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" \n
+ByeTicket.c(212):                 noresize="noresize" scrolling="auto"/>\n
+ByeTicket.c(212):        </frameset>\n
+ByeTicket.c(212):     </html>\n
+ByeTicket.c(212):     \n
+ByeTicket.c(212):     </body>\n
+ByeTicket.c(212):     </html>
+ByeTicket.c(212): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+ByeTicket.c(212): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+ByeTicket.c(212): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+ByeTicket.c(212): t=5309ms: 1361-byte response body retrieved from cache for "http://127.0.0.1:1080/WebTours/home.html" (RelFrameId=1.2, Internal ID=30)
+ByeTicket.c(212):     <HTML>\n
+ByeTicket.c(212):     <HEAD>\n
+ByeTicket.c(212):     \t<title>Web Tours</title>\n
+ByeTicket.c(212):     </HEAD>\n
+ByeTicket.c(212):     <style>\n
+ByeTicket.c(212):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(212):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+ByeTicket.c(212):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(212):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(212):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+ByeTicket.c(212):     N: none}\n
+ByeTicket.c(212):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+ByeTicket.c(212):     CORATION: underline}\n
+ByeTicket.c(212):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(212):     </style>\n
+ByeTicket.c(212):     <body bgcolor="#e0e7f1">\n
+ByeTicket.c(212):     <BR/>\n
+ByeTicket.c(212):     <BR/>\n
+ByeTicket.c(212):     <BR/>\n
+ByeTicket.c(212):     <br/>\n
+ByeTicket.c(212):     <table border="0">\n
+ByeTicket.c(212):     <tr><td></td></tr>\n
+ByeTicket.c(212):     <TR><TD></TD></TR>\n
+ByeTicket.c(212):     <TR><TD>\n
+ByeTicket.c(212):     <blockquote>\n
+ByeTicket.c(212):     <H1><b>Web Tours</b></H1>\n
+ByeTicket.c(212):     Welcome to the Web Tours site.\n
+ByeTicket.c(212):     <br/>\n
+ByeTicket.c(212):     To make reservations,please enter your account information to the left.\n
+ByeTicket.c(212):     <br/>\n
+ByeTicket.c(212):     If you haven't registered yet, <A href="/cgi-bin/login.pl?username=&amp;password=&amp;getI
+ByeTicket.c(212):     nfo=true" ><B>sign up now</B></A> to get access to all our resources.\n
+ByeTicket.c(212):     <br/>\n
+ByeTicket.c(212):     To configure the server options, use <A href="/cgi-bin/admin.pl" target="body" ><b>adminis
+ByeTicket.c(212):     tration</b></A> link.\n
+ByeTicket.c(212):     <br/><br/><br/><br/><br/><br/>\n
+ByeTicket.c(212):     <br/><small>\n
+ByeTicket.c(212):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+ByeTicket.c(212):     x.com" target="new"><B><small>iMatix Corporation</small></B></A> \n
+ByeTicket.c(212):     </small>\n
+ByeTicket.c(212):     </blockquote></TD>\n
+ByeTicket.c(212):     <TD></TD></TR>\n
+ByeTicket.c(212):     </table>\n
+ByeTicket.c(212):     </body>\n
+ByeTicket.c(212):     </HTML>\n
+ByeTicket.c(212): t=5313ms: Request done "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26000]
+ByeTicket.c(212): t=5313ms: Already connected [1] to localhost:8888  	[MsgId: MMSG-26000]
+ByeTicket.c(212): t=5313ms: 372-byte request headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=29)
+ByeTicket.c(212):     GET http://127.0.0.1:1080/cgi-bin/nav.pl?in=home HTTP/1.1\r\n
+ByeTicket.c(212):     Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1\r\n
+ByeTicket.c(212):     User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n
+ByeTicket.c(212):     Accept-Encoding: gzip, deflate\r\n
+ByeTicket.c(212):     Accept-Language: en-US,en;q=0.7,ru;q=0.3\r\n
+ByeTicket.c(212):     Accept: */*\r\n
+ByeTicket.c(212):     Proxy-Connection: Keep-Alive\r\n
+ByeTicket.c(212):     Host: 127.0.0.1:1080\r\n
+ByeTicket.c(212):     Cookie: MSO=SID&1631537447\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5475ms: 255-byte response headers for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=29)
+ByeTicket.c(212):     HTTP/1.1 200 OK\r\n
+ByeTicket.c(212):     Date: Mon, 13 Sep 2021 12:50:47 GMT\r\n
+ByeTicket.c(212):     Server: Apache/2.2.21 (Win32)\r\n
+ByeTicket.c(212):     Expires: Sun, 12 Sep 2021 12:50:48 GMT\r\n
+ByeTicket.c(212):     Keep-Alive: timeout=5, max=92\r\n
+ByeTicket.c(212):     Connection: Keep-Alive\r\n
+ByeTicket.c(212):     Transfer-Encoding: chunked\r\n
+ByeTicket.c(212):     Content-Type: text/html; charset=ISO-8859-1\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5475ms: 5-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=29)
+ByeTicket.c(212):     5d2\r\n
+ByeTicket.c(212): t=5476ms: 7-byte chunked response overhead for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=29)
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212):     0\r\n
+ByeTicket.c(212):     \r\n
+ByeTicket.c(212): t=5476ms: 1490-byte chunked response body for "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" (RelFrameId=1.1, Internal ID=29)
+ByeTicket.c(212):     <!DOCTYPE html\n
+ByeTicket.c(212):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+ByeTicket.c(212):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+ByeTicket.c(212):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+ByeTicket.c(212):     <head>\n
+ByeTicket.c(212):     <title>Web Tours Navigation Bar</title>\n
+ByeTicket.c(212):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+ByeTicket.c(212):     </head>\n
+ByeTicket.c(212):     <body bgcolor="#E0E7F1">\n
+ByeTicket.c(212):     <style>\n
+ByeTicket.c(212):     blockquote {font-family: tahoma; font-size : 10pt}\n
+ByeTicket.c(212):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+ByeTicket.c(212):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+ByeTicket.c(212):     small {font-family: tahoma; font-size : 8pt}\n
+ByeTicket.c(212):     </style>\n
+ByeTicket.c(212):     <form method="post" action="/cgi-bin/login.pl" target="body">\n
+ByeTicket.c(212):     <input type="hidden" name="userSession" value="132161.802106116zHQiAHcpzQfiDDDDtAHiiptDzVH
+ByeTicket.c(212):     f"/>\n
+ByeTicket.c(212):     <table border="0"><tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td><small>&nbsp;Username</small></td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td><small>&nbsp;Password</small></td>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td>&nbsp;</td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td>\n
+ByeTicket.c(212):     <td><input type="image" name="login" value="Login" alt="Login" border="1" \n
+ByeTicket.c(212):     src="/WebTours/images/mer_login.gif"/></td></tr>\n
+ByeTicket.c(212):     <tr><td>&nbsp;</td><td>&nbsp;</td></tr>\n
+ByeTicket.c(212):     </table><input type="hidden" name="JSFormSubmit" value="off"/>\n
+ByeTicket.c(212):     </form>\n
+ByeTicket.c(212):     \n
+ByeTicket.c(212):     </body>\n
+ByeTicket.c(212):     </html>\n
+ByeTicket.c(212): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+ByeTicket.c(212): t=5479ms: Request done "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26000]
+ByeTicket.c(212): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO." (count=1)  	[MsgId: MMSG-26364]
+ByeTicket.c(212): web_url("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+ByeTicket.c(222): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,4523 Wasted Time: 0,0080).
+ByeTicket.c(225): Notify: Transaction "UC_03_ByeTicket" ended with a "Pass" status (Duration: 4,6282 Wasted Time: 0,3668).
+Ending action ByeTicket.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=5558ms: Closed connection [0] to localhost:8888 after completing 14 request(s)  	[MsgId: MMSG-26000]
+t=5558ms: Closed connection [1] to localhost:8888 after completing 7 request(s)  	[MsgId: MMSG-26000]
+t=5558ms: Closed connection [2] to localhost:8888 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=5558ms: Closed connection [3] to localhost:8888 after completing 2 request(s)  	[MsgId: MMSG-26000]
+t=5558ms: Closed connection [4] to localhost:8888 after completing 1 request(s)  	[MsgId: MMSG-26000]

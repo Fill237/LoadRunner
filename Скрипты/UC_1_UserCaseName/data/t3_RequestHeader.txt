@@ -1,0 +1,10 @@
+GET /config/v1/Edge/93.0.961.47?clientId=457701211842714665&osname=win&client=edge&channel=stable&scpfull=0&scpguard=1&scpfre=0&scpver=2&osver=10.0.19043&osarch=x86_64&osedition=home&wu=1&devicefamily=desktop&uma=1&mngd=0&installdate=1587895353 HTTP/1.1
+Host: config.edge.skype.com
+Connection: keep-alive
+If-None-Match: "E6RvNDjnsfN9bo0vrHJ+B6Kmj0LCZ+4cY08amoAGC70="
+Accept-Encoding: gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47
+

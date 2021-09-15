@@ -1,0 +1,3 @@
+DeleteTicket.c(106): Delete!
+Error: Vuser started transaction "select_and_delete_ticket", but did not reach a corresponding end transaction statement. The transaction ended automatically with status 'fail'.
+Vuser Terminated.

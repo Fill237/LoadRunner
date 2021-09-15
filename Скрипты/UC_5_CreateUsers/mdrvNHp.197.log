@@ -1,0 +1,2 @@
+CreateUsers.c(81): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=menus"  	[MsgId: MERR-26612]
+CreateUsers.c(81): Continuing after Error -26366: "Text= User has returned to the home page." not found for web_reg_find  	[MsgId: MERR-26366]

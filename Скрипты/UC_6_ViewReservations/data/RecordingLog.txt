@@ -1,0 +1,230 @@
+[API Trapper      (c03c:ea14)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (cbb8:cdd8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (7b94:ed7c)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (cbb8:e044)] ------------------------------------------------------------------------------------------
+[Network Analyzer (cbb8:e044)] Load Network Traffic Analyzers:
+[Network Analyzer (cbb8:e044)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (cbb8:e044)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (cbb8:e044)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (cbb8:e044)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (cbb8:e044)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (cbb8:e044)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (cbb8:e044)]     Analyzer Module: local_server (value=)
+[Network Analyzer (cbb8:e044)] ------------------------------------------------------------------------------------------
+[Network Analyzer (cbb8:812c)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:cfcc)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e044)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:cfcc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (cbb8:812c)] "GET /WebTours/"   
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (cbb8:e044)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Server -> Client : 1018 bytes  (Service=HTTP)
+[API Trapper      (a104:dc30)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\93.0.961.47\BHO\ie_to_edge_stub.exe
+[Web Request      (cbb8:812c)] "GET /WebTours/header.html"   
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Server -> Client : 1377 bytes  (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Client -> Server @ : 352 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (cbb8:cfcc)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:cfcc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (cbb8:e044)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Web Request      (cbb8:812c)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Client -> Server @ : 373 bytes (Service=HTTP)
+[Network Analyzer (cbb8:e044)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Server -> Client : 4487 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e044)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (cbb8:e044)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[API Trapper      (9244:e834)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Server -> Client : 1429 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:e044)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e044)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (cbb8:812c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Client -> Server @ : 393 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/home.html"   
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Server -> Client : 2025 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:cfcc)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:cfcc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[API Trapper      (eab0:a998)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Server -> Client : 2128 bytes  (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /favicon.ico"   
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (c03c:b390)] ------------------------------------------------------------------------------------------
+[Network Analyzer (c03c:b390)] Load Network Traffic Analyzers:
+[Network Analyzer (c03c:b390)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (c03c:b390)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (c03c:b390)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (c03c:b390)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (c03c:b390)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (c03c:b390)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (c03c:b390)]     Analyzer Module: local_server (value=)
+[Network Analyzer (c03c:b390)] ------------------------------------------------------------------------------------------
+[Network Analyzer (c03c:dce8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:b390)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:b390)] Request Connection: Remote Server @ 23.52.27.27:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (c03c:dce8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBS56bKHAoUD%2BOyl%2B0LhPg9JxyQm4gQUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMCEFIA5aolVvwahu2WydRLM8c%3D"   
+[Network Analyzer (c03c:dce8)]   (Sid:  1) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (c03c:dce8)]   (Sid:  1) Server -> Client : 291 bytes  (Service=HTTP)
+[Web Request      (c03c:dce8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBS56bKHAoUD%2BOyl%2B0LhPg9JxyQm4gQUf9Nlp8Ld7LvwMAnzQzn6Aq8zMTMCEFIA5aolVvwahu2WydRLM8c%3D"   
+[Network Analyzer (c03c:dce8)]   (Sid:  1) Client -> Server @ : 279 bytes (Service=HTTP)
+[Network Analyzer (c03c:dce8)]   (Sid:  1) Server -> Client : 291 bytes  (Service=HTTP)
+[API Trapper      (e884:dfcc)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Network Analyzer (9244:8374)] ------------------------------------------------------------------------------------------
+[Network Analyzer (9244:8374)] Load Network Traffic Analyzers:
+[Network Analyzer (9244:8374)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (9244:8374)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (9244:8374)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (9244:8374)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (9244:8374)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (9244:8374)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (9244:8374)]     Analyzer Module: local_server (value=)
+[Network Analyzer (9244:8374)] ------------------------------------------------------------------------------------------
+[Network Analyzer (9244:9f68)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (e884:dff0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (e884:dff0)] Load Network Traffic Analyzers:
+[Network Analyzer (e884:dff0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (e884:dff0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (e884:dff0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (e884:dff0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (e884:dff0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (e884:dff0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (e884:dff0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (e884:dff0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (e884:8a88)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:812c)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (c03c:b390)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:b390)] Request Connection: Remote Server @ 93.184.220.29:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (c03c:dce8)] "GET /pca3-g5.crl"   
+[Network Analyzer (c03c:dce8)]   (Sid:  2) Client -> Server @ : 128 bytes (Service=HTTP)
+[Network Analyzer (c03c:dce8)]   (Sid:  2) Server -> Client : 1196 bytes  (Service=HTTP)
+[Network Analyzer (9244:8374)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:e1e0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:e1e0)] Request Connection: Remote Server @ 23.52.27.27:80   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (9244:8374)] Request Connection: Remote Server @ 52.164.226.245:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (e884:dff0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (e884:dff0)] Request Connection: Remote Server @ 13.107.42.23:443   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (c03c:dce8)] "GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBTSqZMG5M8TA9rdzkbCnNwuMAd5VgQUz5mp6nsm9EvJjo%2FX8AUm7%2BPSp50CEFajDppuq0SJiE8Q2b7y3yQ%3D"   
+[Network Analyzer (c03c:dce8)]   (Sid:  3) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (c03c:dce8)]   (Sid:  3) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (c03c:dce8)]   (Sid:  3) Server -> Client : 498 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:e044)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e044)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (cbb8:cfcc)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:cfcc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[API Trapper      (bc60:d630)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[Network Analyzer (9244:d138)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (9244:d138)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (e884:c4f4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (e884:c4f4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (9244:9f68)]   (Sid:  1) Client -> Server @ : 372 bytes (SSL)(Service=HTTP)
+[Web Request      (9244:9f68)] "POST /api/browser/edge/actions"   
+[Network Analyzer (9244:9f68)]   (Sid:  1) Client -> Server @ : 1307 bytes (SSL)(Service=HTTP)
+[Network Analyzer (9244:9f68)]   (Sid:  1) Server -> Client : 663 bytes (SSL) (Service=HTTP)
+[Network Analyzer (9244:9f68)]   (Sid:  1) Connection Terminated (by Server)
+[API Trapper      (d588:ec44)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\93.0.961.47\identity_helper.exe
+[Network Analyzer (e884:dff0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (e884:dff0)] Request Connection: Remote Server @ 131.253.33.219:443   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (e884:8a88)] "GET /config/v1/Edge/93.0.961.47?clientId=457701211842714665&osname=win&client=edge&channel=stable&scpfull=0&scpguard=1&scpfre=0&scpver=2&osver=10.0.19043&osarch=x86_64&osedition=home&wu=1&devicefamily=desktop&uma=1&mngd=0&installdate=1587895353"   
+[Network Analyzer (e884:8a88)]   (Sid:  1) Client -> Server @ : 610 bytes (SSL)(Service=HTTP)
+[Network Analyzer (e884:dff0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Net An. Error    (e884:8b98)] SSL_connect(ssl_id = 2679686638128 = 0000026FE9C52A30) Failed, ctx = 0000026FE9C52440, err = "SSLv2/v3 read server hello A", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (e884:8b98)]   (Sid:  2) SSL handshake with remote server Failed!
+[Network Analyzer (e884:dff0)] Request Connection: Remote Server @ 131.253.33.219:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (e884:dff0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (e884:dff0)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Net An. Error    (e884:bfbc)] SSL_connect(ssl_id = 2679686639664 = 0000026FE9C53030) Failed, ctx = 0000026FE9C52440, err = "SSLv2/v3 read server hello A", err code = 5, err msg = "error:00000005:lib(0):func(0):DH lib
+"
+[Net An. Error    (e884:bfbc)]   (Sid:  3) SSL handshake with remote server Failed!
+[Network Analyzer (e884:8a88)]   (Sid:  1) Server -> Client : 8386 bytes (SSL) (Service=HTTP)
+[Network Analyzer (e884:ab50)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (e884:ab50)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (e884:dff0)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (e884:dff0)] Request Connection: Remote Server @ 185.85.13.155:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (e884:8a88)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (e884:8a88)]   (Sid:  5) Connection Terminated (by Client)
+[Web Request      (cbb8:812c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (cbb8:812c)]   (Sid: 11) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid: 11) Server -> Client : 1215 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (cbb8:812c)]   (Sid: 10) Connection Terminated (by Client)
+[Web Request      (cbb8:812c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (cbb8:812c)]   (Sid:  4) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (cbb8:812c)]   (Sid: 11) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer (cbb8:cfcc)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e38c)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:cfcc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (cbb8:e38c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid:  4) Server -> Client : 2155 bytes  (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (cbb8:812c)]   (Sid: 13) Client -> Server @ : 522 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (cbb8:812c)]   (Sid:  4) Client -> Server @ : 524 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (cbb8:812c)]   (Sid: 12) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid: 11) Server -> Client : 1557 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:e38c)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:812c)]   (Sid: 12) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid: 13) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid:  4) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (cbb8:812c)]   (Sid: 12) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (cbb8:e38c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid: 12) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (c03c:b390)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (c03c:b390)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid= 17)  PROXIED!
+[Net An. Error    (c03c:d59c)] SSL_connect(ssl_id = 1450378748160 = 00000151B14F6100) Failed, ctx = 00000151ACE984F0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (c03c:d59c)]   (Sid:  4) SSL handshake with remote server Failed!
+[Net An. Error    (cbb8:9aa8)] SSL_connect(ssl_id = 141303104 = 086C1D40) Failed, ctx = 086C3050, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (cbb8:9aa8)]   (Sid: 17) SSL handshake with remote server Failed!
+[Network Analyzer (cbb8:812c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid: 11) Connection Terminated (by Server)
+[Web Request      (cbb8:812c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (cbb8:812c)]   (Sid: 16) Client -> Server @ : 510 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid: 16) Server -> Client : 1426 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:d0ac)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (cbb8:d0ac)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (cbb8:812c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (cbb8:812c)]   (Sid: 16) Client -> Server @ : 390 bytes (Service=HTTP)
+[Web Request      (cbb8:812c)] "GET /WebTours/home.html"   
+[Network Analyzer (cbb8:812c)]   (Sid: 18) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (cbb8:812c)]   (Sid: 18) Server -> Client : 194 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:e38c)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e38c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (cbb8:812c)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (cbb8:812c)]   (Sid: 16) Server -> Client : 2127 bytes  (Service=HTTP)
+[Network Analyzer (cbb8:e38c)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:5ae4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (cbb8:e38c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (cbb8:5ae4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (cbb8:812c)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (cbb8:812c)]   (Sid: 16) Connection Terminated (by Server)

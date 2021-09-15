@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1631538528061,
+        "rawEndTime": 1631538528313
+    },
+    {
+        "transactionName": "click_sing_up_now",
+        "rawStartTime": 1631538528329,
+        "rawEndTime": 1631538528484
+    },
+    {
+        "transactionName": "customer_profile",
+        "rawStartTime": 1631538528499,
+        "rawEndTime": 1631538528671
+    },
+    {
+        "transactionName": "click_button_continue",
+        "rawStartTime": 1631538528686,
+        "rawEndTime": 1631538528968
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1631538528984,
+        "rawEndTime": 1631538529204
+    },
+    {
+        "transactionName": "UC_05_CreateUsers",
+        "rawStartTime": 1631538528045,
+        "rawEndTime": 1631538529220
+    }
+]

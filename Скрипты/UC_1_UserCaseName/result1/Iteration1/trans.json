@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1631563455839,
+        "rawEndTime": 1631563459510
+    },
+    {
+        "transactionName": "logon",
+        "rawStartTime": 1631563459524,
+        "rawEndTime": 1631563462931
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1631563462947,
+        "rawEndTime": 1631563466315
+    },
+    {
+        "transactionName": "UC_01_UserCaseName",
+        "rawStartTime": 1631563455822,
+        "rawEndTime": 1631563466330
+    }
+]

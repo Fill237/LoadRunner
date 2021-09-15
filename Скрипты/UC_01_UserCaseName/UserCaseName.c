@@ -9,16 +9,25 @@
 	
 	web_reg_find("Text/IC=Web Tours",LAST);
 
-	web_reg_save_param_attrib(
-		"ParamName=userSession",
-		"TagName=input",
-		"Extract=value",
-		"Name=userSession",
-		"Type=hidden",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		"RequestUrl=*/nav.pl*",
-		LAST);
+	
+	web_reg_save_param_ex( 
+  		"ParamName=ID", 
+ 		"LB=userSession\" value=\"", 
+  		"RB=\"", 
+  		"Ordinal=1", 
+  		SEARCH_FILTERS, 
+  		LAST);
+	
+//	web_reg_save_param_attrib(
+//		"ParamName=userSession",
+//		"TagName=input",
+//		"Extract=value",
+//		"Name=userSession",
+//		"Type=hidden",
+//		SEARCH_FILTERS,
+//		"IgnoreRedirections=No",
+//		"RequestUrl=*/nav.pl*",
+//		LAST);
 
 	web_url("welcome.pl_2", 
 		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true", 
@@ -48,7 +57,7 @@
 		"Snapshot=t3.inf",
 		"Mode=HTML",
 		ITEMDATA,
-		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=userSession", "Value={ID}", ENDITEM,
 		"Name=username", "Value={Login}", ENDITEM,
 		"Name=password", "Value={Password}", ENDITEM,
 		"Name=login.x", "Value=70", ENDITEM,

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Perfomance testing\VLAD_WEB_TOUR\UC_1_UserCaseName_V2
+-ID:\HPE\LoadRunner\include
+-ed:\perfomance testing\vlad_web_tour\uc_1_usercasename_v2\\logfile.log
+d:\perfomance testing\vlad_web_tour\uc_1_usercasename_v2\\combined_UC_1_UserCaseName_V2.c
+d:\perfomance testing\vlad_web_tour\uc_1_usercasename_v2\\pre_cci.c

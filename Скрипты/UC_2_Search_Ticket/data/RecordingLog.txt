@@ -1,0 +1,198 @@
+[API Trapper      (46c8:de78)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (b26c:f6ec)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (eaf8:f074)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[Network Analyzer (b26c:eea8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (b26c:eea8)] Load Network Traffic Analyzers:
+[Network Analyzer (b26c:eea8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (b26c:eea8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (b26c:eea8)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (b26c:eea8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (b26c:eea8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (b26c:eea8)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (b26c:eea8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (b26c:eea8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (b26c:ccc4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:eea8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:f5e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:eea8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /WebTours/"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (b26c:f5e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Server -> Client : 1018 bytes  (Service=HTTP)
+[Network Analyzer (b26c:f5e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:f5e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /WebTours/header.html"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Server -> Client : 1376 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Client -> Server @ : 352 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  3) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (b26c:eea8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Client -> Server @ : 373 bytes (Service=HTTP)
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:eea8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid:  3) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Server -> Client : 1430 bytes  (Service=HTTP)
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Client -> Server @ : 393 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/home.html"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Server -> Client : 2025 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Server -> Client : 2124 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /favicon.ico"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid:  2) Connection Terminated (by Server)
+[Web Request      (b26c:ccc4)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 1215 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 498 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 12) Client -> Server @ : 493 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (b26c:ccc4)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 2154 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  5) Client -> Server @ : 522 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  5) Server -> Client : 1024 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  5) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ccc4)]   (Sid:  5) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 1048 bytes  (Service=HTTP)
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid: 12) Server -> Client : 1558 bytes  (Service=HTTP)
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 17) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 17) Server -> Client : 1247 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (b26c:ccc4)]   (Sid: 14) Connection Terminated (by Client)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 17) Client -> Server @ : 515 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 16) Client -> Server @ : 516 bytes (Service=HTTP)
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid: 17) Server -> Client : 2158 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 528 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 15) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 15) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 16) Server -> Client : 4926 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Client -> Server @ : 530 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid: 12) Connection Terminated (by Server)
+[Web Request      (b26c:ccc4)] "GET /WebTours/classes/"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 16) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 16) Server -> Client : 798 bytes  (Service=HTTP)
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:f5e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (b26c:f5e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (b26c:ccc4)] "GET /WebTours/classes/"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 20) Client -> Server @ : 482 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 20) Server -> Client : 799 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (b26c:ccc4)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (b26c:c630)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:c630)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (46c8:da54)] ------------------------------------------------------------------------------------------
+[Network Analyzer (46c8:da54)] Load Network Traffic Analyzers:
+[Network Analyzer (46c8:da54)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (46c8:da54)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (46c8:da54)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (46c8:da54)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (46c8:da54)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (46c8:da54)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (46c8:da54)]     Analyzer Module: local_server (value=)
+[Network Analyzer (46c8:da54)] ------------------------------------------------------------------------------------------
+[Network Analyzer (46c8:d7e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Web Request      (b26c:ccc4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 22) Client -> Server @ : 847 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 22) Server -> Client : 3095 bytes  (Service=HTTP)
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (b26c:f5e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:f5e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (46c8:da54)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (46c8:da54)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid=  1)  PROXIED!
+[Net An. Error    (46c8:1594)] SSL_connect(ssl_id = 2541033786736 = 0000024FA16A8D70) Failed, ctx = 0000024F9D710AD0, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (46c8:1594)]   (Sid:  1) SSL handshake with remote server Failed!
+[Network Analyzer (b26c:4384)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:4384)] Request Connection: Remote Server @ 152.199.19.161:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid: 22) Connection Terminated (by Server)
+[Web Request      (b26c:ccc4)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 23) Client -> Server @ : 738 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 23) Server -> Client : 3341 bytes  (Service=HTTP)
+[Net An. Error    (b26c:f008)] SSL_connect(ssl_id = 145500672 = 08AC2A00) Failed, ctx = 08AC2818, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+"
+[Net An. Error    (b26c:f008)]   (Sid: 25) SSL handshake with remote server Failed!
+[Network Analyzer (b26c:f5e4)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:f5e4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid: 23) Connection Terminated (by Server)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 24) Client -> Server @ : 513 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 24) Server -> Client : 1426 bytes  (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 26) Client -> Server @ : 390 bytes (Service=HTTP)
+[Web Request      (b26c:ccc4)] "GET /WebTours/home.html"   
+[Network Analyzer (b26c:ccc4)]   (Sid: 24) Client -> Server @ : 486 bytes (Service=HTTP)
+[Network Analyzer (b26c:ccc4)]   (Sid: 24) Server -> Client : 193 bytes  (Service=HTTP)
+[Network Analyzer (b26c:eea8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:eea8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (b26c:ccc4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (b26c:ccc4)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (b26c:ccc4)]   (Sid: 26) Server -> Client : 2120 bytes  (Service=HTTP)
+[Network Analyzer (b26c:ead8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:ead8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (b26c:eea8)] Address lookup for LAPTOP-NKCTGATT = 192.168.1.70
+[Network Analyzer (b26c:eea8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!

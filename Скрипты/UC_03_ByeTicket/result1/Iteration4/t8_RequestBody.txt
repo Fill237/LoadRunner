@@ -1,4 +1,0 @@
-"firstName=Din&lastName=Hardy&address1=Tesnus&address2=Addis+Ababa&pass1=Din+Hardy&creditCard=6"
-"3258741&expDate=04%2F28&oldCCOption=&numPassengers=1&seatType=&seatPref=&outboundFlight=170%3B"
-"957%3B06%2F09%2F2021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=24&buyFligh"
-"ts.y=11&.cgifields=saveCC"

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Perfomans testing\VLAD_WEB_TOUR\UC_4_Delete_Ticket_V2
+-ID:\HPE\LoadRunner\include
+-ed:\perfomans testing\vlad_web_tour\uc_4_delete_ticket_v2\\logfile.log
+d:\perfomans testing\vlad_web_tour\uc_4_delete_ticket_v2\\combined_UC_4_Delete_Ticket_V2.c
+d:\perfomans testing\vlad_web_tour\uc_4_delete_ticket_v2\\pre_cci.c

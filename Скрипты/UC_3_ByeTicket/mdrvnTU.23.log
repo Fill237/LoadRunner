@@ -1,0 +1,2 @@
+ByeTicket.c(155): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MERR-26612]
+ByeTicket.c(155): Continuing after Error -26366: "Text=Reservation Made!" not found for web_reg_find  	[MsgId: MERR-26366]

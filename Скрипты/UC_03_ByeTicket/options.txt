@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\getay\Documents\VuGen\Scripts\UC_03_ByeTicket
--ID:\LoadRunner\include
--ec:\users\getay\documents\vugen\scripts\uc_03_byeticket\\logfile.log
-c:\users\getay\documents\vugen\scripts\uc_03_byeticket\\combined_UC_03_ByeTicket.c
-c:\users\getay\documents\vugen\scripts\uc_03_byeticket\\pre_cci.c
+-IC:\Users\getay\Documents\GitHub\LoadRunner\Скрипты\UC_03_ByeTicket
+-ID:\Micro Focus\LoadRunner\include
+-ec:\users\getay\documents\github\loadrunner\скрипты\uc_03_byeticket\\logfile.log
+c:\users\getay\documents\github\loadrunner\скрипты\uc_03_byeticket\\combined_UC_03_ByeTicket.c
+c:\users\getay\documents\github\loadrunner\скрипты\uc_03_byeticket\\pre_cci.c

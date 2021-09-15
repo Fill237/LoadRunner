@@ -1,0 +1,2 @@
+[Hosts]
+localhost=d:\perfomans testing\результаты\resDebag0\localhost_1.eve

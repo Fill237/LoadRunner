@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1631707399074,
+        "rawEndTime": 1631707404612
+    },
+    {
+        "transactionName": "logon",
+        "rawStartTime": 1631707404627,
+        "rawEndTime": 1631707409946
+    },
+    {
+        "transactionName": "click_button_itinerary",
+        "rawStartTime": 1631707409961,
+        "rawEndTime": 1631707415265
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1631707415280,
+        "rawEndTime": 1631707420496
+    },
+    {
+        "transactionName": "UC_06_ViewReservations",
+        "rawStartTime": 1631707399059,
+        "rawEndTime": 1631707420512
+    }
+]
