@@ -1,0 +1,66 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=6558
+VerNo=13
+IsSummaryData=0
+TimeFormat=0
+SesLang=RUS
+ABuild=0
+DataBaseName=resS241794812DB
+DBType=1
+CurrServer=DESKTOP-CTO52DG
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\DESKTOP-CTO52DG\Data\
+PhStorageLoc=C:\MSSQL7\Data
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=2
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=1
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=D:\Perfomans testing\Результаты\resSearchMAX0\resSearchMAX0.lrr
+ResultTDPath=
+NumFilters=0
+ScenarioTimeZone=-10800
+DaylightSavingSecsAddition=0
+ScenarioStartTime=1631811538
+ScenarioEndTime=1631818096
+ResInSD=0
+WebGran=5
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+GraphScale=0
+Scenario Type=Manual
+Schedule Name=Schedule 1
+Mode=Scenario Scheduling
+Load Behavior=Initialize each Vuser just before it runs
+Scenario Duration=Start 10 Vusers simultaneously; Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 10 every 00:22:00 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Start 10 Vusers: 10 every 01:06:00 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Start 10 Vusers: 10 every 01:28:00 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Start 10 Vusers: 10 every 01:50:00 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
+NumGraphs=15
+
+[DimensionFunctions]
+DimeFuncCount=0
+
