@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.7,ru;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:1080
+Cookie: MSO=SID&1632149993; MTUserInfo=firstName&Jocelin&address2&Gaborone&username&jojo6&hash&86&lastName&Stevenson%0A&address1&Jay%20Em&creditCard&&expDate&%0A
+

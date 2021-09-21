@@ -5,7 +5,7 @@ UserCaseName()
 	
 	lr_start_transaction("home_page");
 	
-	lr_think_time(5);
+	lr_think_time(3);
 	
 	web_reg_find("Text/IC=Web Tours",LAST);
 
@@ -32,7 +32,7 @@ UserCaseName()
 
 	lr_start_transaction("logon");
 	
-	lr_think_time(5);
+	lr_think_time(3);
 	
 	web_reg_find("Text/IC=User password was correct", LAST);
 
@@ -58,7 +58,7 @@ UserCaseName()
 	
 	lr_start_transaction("logout");
 	
-	lr_think_time(5);
+	lr_think_time(3);
 
 	web_reg_find("Text/IC=A Session ID has been created and loaded into a cookie called MSO.", LAST);
 

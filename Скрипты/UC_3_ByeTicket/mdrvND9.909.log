@@ -1,0 +1,3 @@
+ByeTicket.c(193): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MERR-26612]
+ByeTicket.c(193): Continuing after Error -26366: "Text= User wants the intineraries." not found for web_reg_find  	[MsgId: MERR-26366]
+ByeTicket.c(40): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MERR-26612]

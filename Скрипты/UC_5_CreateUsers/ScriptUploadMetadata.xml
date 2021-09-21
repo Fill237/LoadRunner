@@ -33,9 +33,18 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv7mh.689.log" Filter="1" />
+    <FileEntry Name="mdrvA83.725.log" Filter="1" />
+    <FileEntry Name="mdrvC5B.39.log" Filter="1" />
+    <FileEntry Name="mdrvD07.43.log" Filter="1" />
+    <FileEntry Name="mdrvep2.747.log" Filter="1" />
+    <FileEntry Name="mdrvFj1.677.log" Filter="1" />
     <FileEntry Name="mdrvhZx.303.log" Filter="1" />
     <FileEntry Name="mdrvNHp.197.log" Filter="1" />
+    <FileEntry Name="mdrvPsJ.613.log" Filter="1" />
+    <FileEntry Name="mdrvsAd.369.log" Filter="1" />
+    <FileEntry Name="mdrvXyQ.409.log" Filter="1" />
     <FileEntry Name="mdrvyPs.705.log" Filter="1" />
+    <FileEntry Name="mdrvz1f.985.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />
@@ -50,6 +59,7 @@
     <FileEntry Name="UC_2_Search_Ticket_V2.prm.bak" Filter="1" />
     <FileEntry Name="UC_3_ByeTicket_V2.prm.bak" Filter="1" />
     <FileEntry Name="UC_4_Delete_Ticket_V2.prm.bak" Filter="1" />
+    <FileEntry Name="UC_5_CreateUsers.prm.bak" Filter="1" />
     <FileEntry Name="UC_5_CreateUsers.sdf" Filter="1" />
     <FileEntry Name="UC_5_CreateUsers_V2.prm.bak" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

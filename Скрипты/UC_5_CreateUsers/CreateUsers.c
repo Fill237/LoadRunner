@@ -4,6 +4,8 @@ CreateUsers()
 	
 	
 	lr_start_transaction("home_page");
+	
+	lr_think_time(3);
 		
 	//web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -26,7 +28,7 @@ CreateUsers()
 
 	lr_start_transaction("click_sing_up_now");
 	
-	lr_think_time(5);
+	lr_think_time(3);
 	
 	web_reg_find("Text=User Information",LAST);
 
@@ -45,7 +47,7 @@ CreateUsers()
 
 	lr_start_transaction("customer_profile");
 
-	lr_think_time(5);
+	lr_think_time(3);
 
 	web_reg_find("Text/IC={Login}",LAST);
 
@@ -74,7 +76,7 @@ CreateUsers()
 
 	lr_start_transaction("click_button_continue");
 
-	lr_think_time(5);
+	lr_think_time(3);
 	
 	web_reg_find("Text/IC= User has returned to the home page.",LAST);
 
@@ -91,23 +93,23 @@ CreateUsers()
 	lr_end_transaction("click_button_continue",LR_AUTO);
 	
 
-	lr_start_transaction("logout");
-
-	lr_think_time(5);
-	
-	web_reg_find("Text/IC= A Session ID has been created and loaded into a cookie called MSO.",LAST);
-
-	web_url("SignOff Button", 
-		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
+//	lr_start_transaction("logout");
+//
+//	lr_think_time(5);
+//	
+//	web_reg_find("Text/IC= A Session ID has been created and loaded into a cookie called MSO.",LAST);
+//
+//	web_url("SignOff Button", 
+//		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1", 
+//		"TargetFrame=body", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home", 
+//		"Snapshot=t6.inf", 
+//		"Mode=HTML", 
+//		LAST);
+//
+//	lr_end_transaction("logout",LR_AUTO);
 	
 	
 	lr_end_transaction("UC_05_CreateUsers", LR_AUTO);

@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--ID:\Perfomans testing\VLAD_WEB_TOUR\UC_3_ByeTicket_V2
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ed:\perfomans testing\vlad_web_tour\uc_3_byeticket_v2\\logfile.log
-d:\perfomans testing\vlad_web_tour\uc_3_byeticket_v2\\combined_UC_3_ByeTicket_V2.c
-d:\perfomans testing\vlad_web_tour\uc_3_byeticket_v2\\pre_cci.c
+-ID:\Perfomans testing\Скрипты\UC_3_ByeTicket
+-ID:\HPE\LoadRunner\include
+-ed:\perfomans testing\скрипты\uc_3_byeticket\\logfile.log
+d:\perfomans testing\скрипты\uc_3_byeticket\\combined_UC_3_ByeTicket.c
+d:\perfomans testing\скрипты\uc_3_byeticket\\pre_cci.c

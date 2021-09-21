@@ -1,0 +1,3 @@
+Warning: Iteration pacing cannot be reached (pace time = 39,00, actual time = 47,98).	[MsgId: MWAR-15995]
+CreateUsers.c(16): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MERR-26612]
+CreateUsers.c(16): Continuing after Error -26366: "Text=Web Tours" not found for web_reg_find  	[MsgId: MERR-26366]

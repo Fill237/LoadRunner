@@ -1,0 +1,4 @@
+Search_Ticket.c(65): Continuing after Error -27724: Step download timeout (120 seconds) has expired when downloading resource "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MERR-27724]
+Search_Ticket.c(65): Continuing after Error -26366: "Text=User has returned to the search page." not found for web_reg_find  	[MsgId: MERR-26366]
+Search_Ticket.c(65): Continuing after Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+Warning: Iteration pacing cannot be reached (pace time = 73,00, actual time = 232,84).	[MsgId: MWAR-15995]

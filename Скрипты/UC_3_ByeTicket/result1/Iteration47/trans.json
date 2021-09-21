@@ -1,0 +1,47 @@
+[
+    {
+        "transactionName": "home_page",
+        "rawStartTime": 1632150051142,
+        "rawEndTime": 1632150051579
+    },
+    {
+        "transactionName": "logon",
+        "rawStartTime": 1632150051595,
+        "rawEndTime": 1632150052001
+    },
+    {
+        "transactionName": "click_button_flights",
+        "rawStartTime": 1632150052017,
+        "rawEndTime": 1632150052423
+    },
+    {
+        "transactionName": "find_flight",
+        "rawStartTime": 1632150052439,
+        "rawEndTime": 1632150052784
+    },
+    {
+        "transactionName": "flight_selection",
+        "rawStartTime": 1632150052798,
+        "rawEndTime": 1632150053111
+    },
+    {
+        "transactionName": "payment_details",
+        "rawStartTime": 1632150053126,
+        "rawEndTime": 1632150053486
+    },
+    {
+        "transactionName": "click_button_itinerary",
+        "rawStartTime": 1632150053501,
+        "rawEndTime": 1632150053939
+    },
+    {
+        "transactionName": "logout",
+        "rawStartTime": 1632150053955,
+        "rawEndTime": 1632150054315
+    },
+    {
+        "transactionName": "UC_03_ByeTicket",
+        "rawStartTime": 1632150051126,
+        "rawEndTime": 1632150054331
+    }
+]

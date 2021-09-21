@@ -4,7 +4,7 @@ DeleteTicket()
 	
 	lr_start_transaction("home_page");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=Web Tours",LAST);
 
@@ -31,7 +31,7 @@ DeleteTicket()
 
 	lr_start_transaction("logon");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=User password was correct", LAST);
 
@@ -57,7 +57,7 @@ DeleteTicket()
 		
 	lr_start_transaction("click_button_itinerary");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 			
 	web_reg_save_param("FlightID",
 		"LB=flightID\" value=\"",
@@ -82,7 +82,7 @@ DeleteTicket()
 	
 	lr_start_transaction("select_and_delete_ticket");
 
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=Flights List",LAST);
 	
@@ -99,7 +99,7 @@ DeleteTicket()
 		LAST );
 		
 		if (atoi(lr_eval_string("{CountDel}")) > 0) {
-	lr_error_message ("Can not delete!");
+	lr_output_message ("Can not delete!");
 //	lr_end_transaction("select_and_delete_ticket", LR_FAIL);
 		}	
 		else{

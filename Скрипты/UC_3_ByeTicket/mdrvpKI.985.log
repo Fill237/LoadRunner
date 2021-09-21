@@ -1,0 +1,5 @@
+ByeTicket.c(40): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MERR-26612]
+ByeTicket.c(95): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/reservations.pl"  	[MsgId: MERR-26612]
+ByeTicket.c(95): Continuing after Error -26366: "Text=Flight Selections" not found for web_reg_find  	[MsgId: MERR-26366]
+ByeTicket.c(95): Continuing after Error -26366: "Text=<B>{depart}</B> to <B>{arrive}</B>" not found for web_reg_find  	[MsgId: MERR-26366]
+ByeTicket.c(95): Continuing after Error -26377: No match found for the requested parameter "OBF". Either the specified boundaries were not found in the response or the matched text is longer than current max html parameter size of 256 bytes. The total length of the response is 535 bytes. You can use "web_set_max_html_param_len" to increase the max parameter size.  	[MsgId: MERR-26377]

@@ -1,0 +1,2 @@
+ByeTicket.c(66): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MERR-26612]
+ByeTicket.c(40): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true"  	[MsgId: MERR-26612]

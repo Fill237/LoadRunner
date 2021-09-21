@@ -6,7 +6,7 @@ Search_Ticket()
 	
 	lr_start_transaction("home_page");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=Web Tours",LAST);
 
@@ -33,7 +33,7 @@ Search_Ticket()
 
 	lr_start_transaction("logon");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=User password was correct", LAST);
 
@@ -58,7 +58,7 @@ Search_Ticket()
 			
 	lr_start_transaction("click_button_flights");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 		
 	web_reg_find("Text/IC=User has returned to the search page.", LAST);
 
@@ -77,7 +77,7 @@ Search_Ticket()
 	
 	lr_start_transaction("find_flight");
 
-	lr_think_time(5);
+	lr_think_time(2);
 	
 	web_reg_find("Text/IC=Flight Selections", LAST);
 	
@@ -120,7 +120,7 @@ Search_Ticket()
 
 	lr_start_transaction("flight_selection");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 
 	web_reg_find("Text/IC=Flight Reservation", LAST);
 
@@ -147,7 +147,7 @@ Search_Ticket()
 	
 	lr_start_transaction("logout");
 	
-	lr_think_time(5);
+	lr_think_time(2);
 
 	web_reg_find("Text/IC=A Session ID has been created and loaded into a cookie called MSO.", LAST);
 

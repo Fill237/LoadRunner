@@ -51,7 +51,7 @@ vuser_init=cci
 CreateUsers=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UC_05_CreateUsers__*delimiter*__home_page__*delimiter*__click_sing_up_now__*delimiter*__customer_profile__*delimiter*__click_button_continue__*delimiter*__logout"
+Order="UC_05_CreateUsers__*delimiter*__home_page__*delimiter*__click_sing_up_now__*delimiter*__customer_profile__*delimiter*__click_button_continue"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -63,4 +63,3 @@ home_page=
 click_sing_up_now=
 customer_profile=
 click_button_continue=
-logout=

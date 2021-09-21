@@ -21,19 +21,19 @@ Description=
 Hosts=1
 Scripts=6
 Groups=6
-Vusers=30
+Vusers=45
 Tranzactions=26
 Rendezvous=0
-Result_file=d:\perfomans testing\результаты\CongMAX0\CongMAX0.lrr
-ResCleanName=CongMAX0
+Result_file=d:\perfomans testing\результаты\CongMAX1\CongMAX1.lrr
+ResCleanName=CongMAX1
 ResSymName=
 DEFAULT_NFS_LESS_MODE=1
 AutoSetResults=1
 AutoOverwriteResults=0
 BaseResultsName=CongMAX
 MaxVuserSeedNumberUsed=0
-PlannedNumOfVusers=30
-PrivatePlannedNumOfVusers=30
+PlannedNumOfVusers=45
+PrivatePlannedNumOfVusers=45
 ManualControlDistributionType=-1
 ManualControlAutoAddVusers=1
 Tranzactions=26
@@ -52,7 +52,7 @@ ScenarioSchedulerMode=1
 ScenarioSchedulerName=Default Schedule
 SuspendScenarioStart=0
 ScenarioStartDelay=0
-ScenarioStartAtTime=54506
+ScenarioStartAtTime=61706
 ScenarioStartAtTimeYear=2021
 ScenarioStartAtTimeMonth=9
 ScenarioStartAtTimeDay=15
@@ -201,7 +201,7 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_3_ByeTicket\UC_3_ByeTicket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="No"\r\nEnableDynatrace="0"\r\nNavigatorUserLanguage="ru-RU"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="1"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nProxyHTTPSHost=localhost\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost="localhost"\r\nDisableAED=0\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=8888\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=uspPsb.461\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
+Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nEnableDynatrace="0"\r\nUTF8InputOutput="No"\r\nAutoTransFileLine="1"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="1"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nProxyHTTPSHost=localhost\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost="localhost"\r\nDisableAED=0\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=8888\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspXVU.915"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,ByeTicket,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="ByeTicket"\r\nName="Run"\r\nRunLogicActionOrder="ByeTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="65,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:ByeTicket]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="ByeTicket"\r\nName="ByeTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -228,7 +228,7 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_2_Search_Ticket\UC_2_Search_Ticket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="No"\r\nEnableDynatrace="0"\r\nNavigatorUserLanguage="ru-RU"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="1"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nProxyHTTPSHost=localhost\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost="localhost"\r\nDisableAED=0\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=8888\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=usp5oD.463\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
+Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="ru-RU"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nEnableDynatrace="0"\r\nUTF8InputOutput="No"\r\nAutoTransFileLine="1"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent=1\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nLogFileWrite="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="1"\r\nSearchForImages="1"\r\nProxyUseProxyServer="1"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nProxyHTTPSHost=localhost\r\nWinInetReplay="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nSimulatePrefetchPrerender="0"\r\nProxyHTTPHost="localhost"\r\nDisableAED=0\r\nSimulateCache="1"\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="8888"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="0"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=8888\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspm8j.917"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Search_Ticket,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="Search_Ticket"\r\nName="Run"\r\nRunLogicActionOrder="Search_Ticket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="73,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:Search_Ticket]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="Search_Ticket"\r\nName="Search_Ticket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -253,7 +253,7 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_5_CreateUsers\UC_5_CreateUsers.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=uspOCE.465\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=1\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nEnableDynatrace="0"\r\nLogFileWrite="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="1"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspweR.919"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=1\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,CreateUsers,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="CreateUsers"\r\nName="Run"\r\nRunLogicActionOrder="CreateUsers"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="39,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:CreateUsers]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="CreateUsers"\r\nName="CreateUsers"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -276,8 +276,8 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_4_Delete_Ticket\UC_4_Delete_Ticket.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=usp1ff.467\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,DeleteTicket,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="DeleteTicket"\r\nName="Run"\r\nRunLogicActionOrder="DeleteTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="52,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:DeleteTicket]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="DeleteTicket"\r\nName="DeleteTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nProxyPassword=""\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nEnableDynatrace="0"\r\nLogFileWrite="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nScreenAvailHeight="1040"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="1"\r\nFailNonCriticalItem="0"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nSimulateCache="1"\r\nStartRecordingGMT="2021/09/13 11:48:35"\r\nResetContext="1"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nProxyAutoConfigScriptURL=""\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspprE.921"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=2\r\nLimitFlag=1\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,DeleteTicket,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="DeleteTicket"\r\nName="Run"\r\nRunLogicActionOrder="DeleteTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="50,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:DeleteTicket]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="DeleteTicket"\r\nName="DeleteTicket"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
@@ -299,7 +299,7 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_6_ViewReservations\UC_6_ViewReservations.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="en-US,en;q=0.7,ru;q=0.3"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nEnableSnapshotsInReplay="Yes"\r\nResetContext="1"\r\nSimulateCache="1"\r\nStartRecordingGMT="2021/09/13 10:05:06"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nLogEnableResponseLimit="0"\r\nPageDownloadTimeout="120"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nResourcePageTimeoutIsWarning="No"\r\nSimulatePrefetchPrerender="0"\r\nMaxErrorMatchesAsERRORS="10"\r\nAedUtf8Values="No"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nIntegratedAuthentication="No"\r\nPrintNTLMLog="No"\r\nProxyAutoConfigScriptURL=""\r\nWebSyncRetryTimeoutMs="3000"\r\nGraphPagesPerSecond="0"\r\nSSLVersionKey="2"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nHttpVer="1.1"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=usp6W1.469\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nSaveStreamSnapshot="0"\r\nStreamTimeout="30"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomHigh=150\r\nThinkTimeRandomLow=50\r\nLimit=3\r\nLimitFlag=1\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="en-US,en;q=0.7,ru;q=0.3"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="1"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2021/09/13 10:05:06"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspUEG.923"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=1.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=1\r\n
 ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,ViewReservation,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="ViewReservation"\r\nName="Run"\r\nRunLogicActionOrder="ViewReservation"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="253,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:ViewReservation]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="ViewReservation"\r\nName="ViewReservation"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
@@ -322,8 +322,8 @@ ScriptType=10
 Path=D:\Perfomans testing\Скрипты\UC_1_UserCaseName\UC_1_UserCaseName.usr
 EmulatedLocation=None
 NVAnalytics=0
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="en-US,en;q=0.7,ru;q=0.3"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="0"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2021/09/13 10:05:06"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=0\r\niter_ends_val=fixed\r\nDefaultRunLogic=usp31J.471\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=MULTIPLY\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=1\r\n
-ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,UserCaseName,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="UserCaseName"\r\nName="Run"\r\nRunLogicActionOrder="UserCaseName"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="130,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:UserCaseName]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="UserCaseName"\r\nName="UserCaseName"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
+Config=[CommandArguments]\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[WEB]\r\nCacheAlwaysCheckForNewerPages="0"\r\nAnalogMode="0"\r\nSearchForImages="1"\r\nDisableNTLM2SS="No"\r\nProxyPassword=""\r\nMaxSelfMetaRefreshCount="2"\r\nBrowserAcceptLanguage_extra_arg_1="en-US,en;q=0.7,ru;q=0.3"\r\nEnableChecks="0"\r\nAutoTransFileLine="1"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nPrintBufEscape0="No"\r\nNavigatorUserLanguage="ru-RU"\r\nNavigatorBrowserLanguage="ru-RU"\r\nBrowserAcceptLanguage="en-US,en;q=0.7,ru;q=0.3"\r\nZlibHeadersInCompressedRequestBody="Yes"\r\nLogFileWrite="0"\r\nEnableDynatrace="0"\r\nMaxRedirectionDepth="10"\r\nLoadChilEngine="No"\r\nProxyUseAutoConfigScript="0"\r\nHeavyKDCLoad="No"\r\nProxyUseSame="1"\r\nLogMaxResponseSize="100"\r\nProxyUserName=""\r\nSnapshotOnErrorActive=0\r\nJsForTransportRuntimeSize="51200"\r\nSPNAddNoneDefPort="No"\r\nScreenAvailHeight="1040"\r\nTreeViewRequestBodyLimit="2047"\r\nRecorderWinCodePage="1251"\r\nProxyNoLocal="0"\r\nProxyUseProxy="0"\r\nCacheHtmlPages="1"\r\nStartRecordingIsDst="0"\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nEnableJsForTransport="No"\r\nDisableAED=0\r\nProxyHTTPSPort=8888\r\nKeepAlive="Yes"\r\nSaveSnapshotResources="1"\r\nFailNonCriticalItem="0"\r\nSPNCNameLookup="Yes"\r\nOverrideNTLMCreds="No"\r\nJsForTransportStackSize="32"\r\nKeepAliveTimeout="60"\r\nUseCustomAgent=1\r\nGraphBytesPerSecond="1"\r\nProxyHTTPPort="8888"\r\nMaxConnections="0"\r\nRetry401ThinkTime="0"\r\nNavigatorSystemLanguage="ru-RU"\r\nUseDataFormatExtensions="0"\r\nProxyHTTPSHost=localhost\r\nEnableIPCache="No"\r\nLogFileWriteTraceToFile="0"\r\nUserHomePage="http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU"\r\nWebSyncRetryIntervalMs="1000"\r\nClearCacheForSimulateNewUser="1"\r\nScreenHeight="1080"\r\nIPVersionPolicy="2"\r\nProxyUseProxyServer="1"\r\nCustomUserAgent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko\r\nSupportCharset="None"\r\nBrowserLanguageCode=""\r\nStartRecordingGMT="2021/09/13 10:05:06"\r\nSimulateCache="1"\r\nResetContext="1"\r\nEnableSnapshotsInReplay="Yes"\r\nIgnoreContentCachingTypes="1"\r\nUTF8InputOutput="No"\r\nWebSocketCallBackTimerIntervalMS="500"\r\nParseHtmlContentType="TEXT"\r\nPrefetchPrerenderCallBackTimerIntervalMS="500"\r\nNetBufSize="12288"\r\nHttpErrorsAsWarnings="No"\r\nUseNativeNTLM="No"\r\nReceiveTimeout="120"\r\nDeleteCacheUnreferencedIterations="1"\r\nPageDownloadTimeout="120"\r\nLogEnableResponseLimit="0"\r\nPrintBufLineLen="99"\r\nBrowser_Type="Microsoft Internet Explorer"\r\nSimulatePrefetchPrerender="0"\r\nResourcePageTimeoutIsWarning="No"\r\nAedUtf8Values="No"\r\nMaxErrorMatchesAsERRORS="10"\r\nConnectTimeout="120"\r\nScreenWidth="1920"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nWinInetReplay="0"\r\nPrintNTLMLog="No"\r\nIntegratedAuthentication="No"\r\nWebSyncRetryTimeoutMs="3000"\r\nProxyAutoConfigScriptURL=""\r\nSSLVersionKey="2"\r\nGraphPagesPerSecond="0"\r\nScreenAvailWidth="1920"\r\nProxyUseBrowser="0"\r\nProxyHTTPHost="localhost"\r\nBrowserUserAgent="Mozilla/5.0 (compatible; MSIE 10.0; Windows; Trident/6.0)"\r\nHttpVer="1.1"\r\nPrintSSLLog="No"\r\nProxyBypass=""\r\nBrowserVer="10.0"\r\nWebRecorderVersion="10"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nBrowserPlatform="Windows"\r\nUseBrowserAgent=0\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=1\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\niter_ends_val=fixed\r\nUseThreads=0\r\nDefaultRunLogic="uspps9.925"\r\nAutomaticTransactionsPerFunc=0\r\nEncoding="ANSI"\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\nReplay64bit="0"\r\n[Streaming]\r\nStreamTimeout="30"\r\nSaveStreamSnapshot="0"\r\nStreamSeekMethod="ByVideoSize"\r\nStreamLog="1"\r\nStreamRetryTime="10"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nLogOptions=LogDisabled\r\nAutoLogBufferSize=1\r\nIncludeEnvInfo=1\r\nPrintTimeStamp=0\r\nMsgClassFull=1\r\nAutoLog=0\r\nMsgClassData=1\r\nLogDetail=1\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor=5.000000\r\nThinkTimeRandomLow=50\r\nThinkTimeRandomHigh=150\r\nLimit=3\r\nLimitFlag=1\r\n
+ConfigUsp=[Profile Actions]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,UserCaseName,vuser_end\r\n[RunLogicEndRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\nMercIniTreeSons="vuser_end"\r\nName="End"\r\nRunLogicActionOrder="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicEndRoot:vuser_end]\r\nMercIniTreeFather="RunLogicEndRoot"\r\nMercIniTreeSectionName="vuser_end"\r\nName="vuser_end"\r\nRunLogicActionType="VuserEnd"\r\nRunLogicObjectKind="Action"\r\n[RunLogicErrorHandlerRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\nMercIniTreeSons="vuser_errorhandler"\r\nName="ErrorHandler"\r\nRunLogicActionOrder="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nName="vuser_errorhandler"\r\nRunLogicActionType="VuserErrorHandler"\r\nRunLogicObjectKind="Action"\r\n[RunLogicInitRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\nMercIniTreeSons="vuser_init"\r\nName="Init"\r\nRunLogicActionOrder="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeFather="RunLogicInitRoot"\r\nMercIniTreeSectionName="vuser_init"\r\nName="vuser_init"\r\nRunLogicActionType="VuserInit"\r\nRunLogicObjectKind="Action"\r\n[RunLogicRunRoot]\r\nMercIniTreeFather=""\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\nMercIniTreeSons="UserCaseName"\r\nName="Run"\r\nRunLogicActionOrder="UserCaseName"\r\nRunLogicActionType="VuserRun"\r\nRunLogicAfterPaceMax="90,000"\r\nRunLogicAfterPaceMin="60,000"\r\nRunLogicNumOfIterations="1"\r\nRunLogicObjectKind="Group"\r\nRunLogicPaceConstAfterTime="60,000"\r\nRunLogicPaceConstTime="133,000"\r\nRunLogicPaceType="Const"\r\nRunLogicRandomPaceMax="90,000"\r\nRunLogicRandomPaceMin="60,000"\r\nRunLogicRunMode="Sequential"\r\n[RunLogicRunRoot:UserCaseName]\r\nMercIniTreeFather="RunLogicRunRoot"\r\nMercIniTreeSectionName="UserCaseName"\r\nName="UserCaseName"\r\nRunLogicActionType="VuserRun"\r\nRunLogicObjectKind="Action"\r\n
 Param=
 TDPath=
 TDServer=
@@ -348,8 +348,8 @@ GraphTop=0
 GraphLeft=225
 TreeViewTop=0
 TreeViewHeight=220
-LegenedTop=809
-LegenedWidth=2871
+LegenedTop=409
+LegenedWidth=1911
 HostNameIdMap=
 LegenedLeft=0
 DisplayMeasDialog=1
@@ -895,24 +895,24 @@ Granularities=-1
 MeasurementCount=10
 Measurement_0=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_0=uc_4_delete_ticket:DeleteTicket:102
-Measurement_1=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_1=uc_3_byeticket:ByeTicket:40
-Measurement_2=|||27|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_2=uc_3_byeticket:ByeTicket:212
+Measurement_1=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_1=uc_1_usercasename:UserCaseName:39
+Measurement_2=|||28|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_2=uc_3_byeticket:ByeTicket:40
 Measurement_3=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
 MeasurementFullPath_3=uc_4_delete_ticket::0
 Measurement_4=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_4=uc_6_viewreservations_1:ViewReservation:71
-Measurement_5=|||22|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_5=uc_3_byeticket:ByeTicket:155
-Measurement_6=|||16|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_6=uc_3_byeticket:ByeTicket:128
-Measurement_7=|||20|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_7=uc_2_search_ticket:Search_Ticket:154
-Measurement_8=|||24|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_8=uc_3_byeticket:ByeTicket:193
-Measurement_9=|||14|||1|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_9=uc_2_search_ticket:Search_Ticket:127
+MeasurementFullPath_4=uc_2_search_ticket:Search_Ticket:21
+Measurement_5=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_5=uc_4_delete_ticket:DeleteTicket:38
+Measurement_6=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_6=uc_2_search_ticket:Search_Ticket:40
+Measurement_7=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_7=uc_3_byeticket:ByeTicket:66
+Measurement_8=|||14|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_8=uc_5_createusers:CreateUsers:16
+Measurement_9=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_9=uc_2_search_ticket:Search_Ticket:65
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [13]
 MeasurementsDelimiter=|||
@@ -954,24 +954,24 @@ Granularities=-1
 MeasurementCount=10
 Measurement_0=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_0=uc_4_delete_ticket:DeleteTicket:102
-Measurement_1=|||13|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_1=uc_3_byeticket:ByeTicket:128
-Measurement_2=|||17|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_2=uc_3_byeticket:ByeTicket:155
-Measurement_3=|||26|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_3=uc_3_byeticket:ByeTicket:212
-Measurement_4=|||11|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_4=uc_2_search_ticket:Search_Ticket:127
-Measurement_5=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_5=uc_3_byeticket:ByeTicket:40
-Measurement_6=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_6=uc_4_delete_ticket::0
-Measurement_7=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_7=uc_6_viewreservations_1:ViewReservation:71
-Measurement_8=|||23|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_8=uc_3_byeticket:ByeTicket:193
-Measurement_9=|||19|||1|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_9=uc_2_search_ticket:Search_Ticket:154
+Measurement_1=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_1=uc_4_delete_ticket:DeleteTicket:38
+Measurement_2=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_2=uc_3_byeticket:ByeTicket:66
+Measurement_3=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_3=uc_2_search_ticket:Search_Ticket:65
+Measurement_4=|||29|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_4=uc_3_byeticket:ByeTicket:40
+Measurement_5=|||11|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_5=uc_2_search_ticket:Search_Ticket:40
+Measurement_6=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_6=uc_1_usercasename:UserCaseName:39
+Measurement_7=|||12|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_7=uc_4_delete_ticket::0
+Measurement_8=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_8=uc_5_createusers:CreateUsers:16
+Measurement_9=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_9=uc_2_search_ticket:Search_Ticket:21
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
 [14]
 MeasurementsDelimiter=|||
@@ -1426,23 +1426,33 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=8
-Measurement_0=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_0=flight_selection::Failed
-Measurement_1=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_1=logon::Failed
-Measurement_2=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_2=UC_06_ViewReservations::Failed
-Measurement_3=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_3=click_button_itinerary::Failed
-Measurement_4=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_4=ViewReservation_Transaction::Failed
-Measurement_5=|||10|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_5=UC_03_ByeTicket::Failed
-Measurement_6=|||8|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_6=ByeTicket_Transaction::Failed
-Measurement_7=|||19|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_7=payment_details::Failed
+MeasurementCount=13
+Measurement_0=|||32|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_0=logon::Failed
+Measurement_1=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_1=UserCaseName_Transaction::Failed
+Measurement_2=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_2=DeleteTicket_Transaction::Failed
+Measurement_3=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_3=UC_04_DeleteTicket::Failed
+Measurement_4=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_4=CreateUsers_Transaction::Failed
+Measurement_5=|||8|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_5=click_button_flights::Failed
+Measurement_6=|||20|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_6=UC_05_CreateUsers::Failed
+Measurement_7=|||10|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_7=UC_03_ByeTicket::Failed
+Measurement_8=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_8=UC_01_UserCaseName::Failed
+Measurement_9=|||8|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_9=ByeTicket_Transaction::Failed
+Measurement_10=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_10=UC_02_SearchTicket::Failed
+Measurement_11=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_11=Search_Ticket_Transaction::Failed
+Measurement_12=|||9|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_12=home_page::Failed
 Description=Displays the number of unsuccessful transactions performed during each second of a load test.
 [23]
 MeasurementsDelimiter=|||
@@ -1696,23 +1706,33 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=8
-Measurement_0=|||17|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_0=UC_06_ViewReservations
-Measurement_1=|||15|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_1=ViewReservation_Transaction
-Measurement_2=|||13|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_2=UC_03_ByeTicket
-Measurement_3=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_3=logon
-Measurement_4=|||11|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_4=ByeTicket_Transaction
-Measurement_5=|||19|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_5=payment_details
-Measurement_6=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_6=click_button_itinerary
-Measurement_7=|||16|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
-MeasurementFullPath_7=flight_selection
+MeasurementCount=13
+Measurement_0=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_0=UC_05_CreateUsers
+Measurement_1=|||13|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_1=UC_03_ByeTicket
+Measurement_2=|||34|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_2=logon
+Measurement_3=|||11|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_3=ByeTicket_Transaction
+Measurement_4=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_4=UC_04_DeleteTicket
+Measurement_5=|||1|||1|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_5=UC_02_SearchTicket
+Measurement_6=|||3|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_6=UserCaseName_Transaction
+Measurement_7=|||8|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_7=click_button_flights
+Measurement_8=|||9|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_8=home_page
+Measurement_9=|||6|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_9=UC_01_UserCaseName
+Measurement_10=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_10=CreateUsers_Transaction
+Measurement_11=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_11=Search_Ticket_Transaction
+Measurement_12=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trfail
+MeasurementFullPath_12=DeleteTicket_Transaction
 Description=Trans/Sec (FAIL)
 [28]
 MeasurementsDelimiter=|||
@@ -1752,7 +1772,7 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=13
+MeasurementCount=10
 Measurement_0=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
 MeasurementFullPath_0=select_and_delete_ticket
 Measurement_1=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
@@ -1761,24 +1781,18 @@ Measurement_2=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
 MeasurementFullPath_2=find_flight
 Measurement_3=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
 MeasurementFullPath_3=logon
-Measurement_4=|||26|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_4=home_page
-Measurement_5=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_5=UC_01_UserCaseName
-Measurement_6=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_6=CreateUsers_Transaction
-Measurement_7=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_7=UC_04_DeleteTicket
-Measurement_8=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_8=click_button_continue
-Measurement_9=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_9=UC_05_CreateUsers
-Measurement_10=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_10=UC_03_ByeTicket
-Measurement_11=|||5|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_11=DeleteTicket_Transaction
-Measurement_12=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
-MeasurementFullPath_12=UserCaseName_Transaction
+Measurement_4=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_4=UC_01_UserCaseName
+Measurement_5=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_5=CreateUsers_Transaction
+Measurement_6=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_6=click_button_continue
+Measurement_7=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_7=UC_05_CreateUsers
+Measurement_8=|||30|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_8=UC_03_ByeTicket
+Measurement_9=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_9=UserCaseName_Transaction
 Description=Total Stopped transactions graph
 [29]
 MeasurementsDelimiter=|||
@@ -2830,7 +2844,7 @@ Measurement_12=|||13|||0|||1E-8|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_12="Private Bytes (Process _Total)"
 Measurement_13=|||28|||1|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_13="Bytes Total/sec (Server)"
-Measurement_14=|||12|||0|||0,01|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_14=|||12|||0|||0,001|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_14="Page Faults/sec (Memory)"
 Measurement_15=|||3|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_15="Получено байт/с (Сетевой адаптер 6to4 Adapter)"
@@ -2854,17 +2868,17 @@ Measurement_24=|||7|||0|||1E-8|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_24="Working Set (Process _Total)"
 Measurement_25=|||27|||1|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_25="Free Megabytes (LogicalDisk _Total)"
-Measurement_26=|||10|||0|||1E-8|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_26=|||10|||0|||1E-7|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_26="Pool Nonpaged Bytes (Memory)"
 Measurement_27=|||14|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_27="Pool Nonpaged Bytes (Server)"
-Measurement_28=|||8|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_28=|||8|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_28="Pages/sec (Memory)"
 Measurement_29=|||6|||0|||0,01|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_29="Available MBytes (Memory)"
 Measurement_30=|||0|||1|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_30="% загруженности процессора (Процессор _Total)"
-Measurement_31=|||0|||0|||10|||localhost|||1|||-1|||es_rm_svr_res_nt
+Measurement_31=|||0|||0|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_31="% Processor Time (Processor _Total)"
 Measurement_32=|||20|||1|||1|||localhost|||1|||-1|||es_rm_svr_res_nt
 MeasurementFullPath_32="File Data Operations/sec (System)"
@@ -5934,7 +5948,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="61445673e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="6149a496e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -5951,7 +5965,7 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
       <StartModes>
         <Immediately />
         <DelayAfterLTStart>0</DelayAfterLTStart>
-        <StartAt>2021-09-15T15:08:26.4939499+03:00</StartAt>
+        <StartAt>2021-09-15T17:08:26.4939499+05:00</StartAt>
       </StartModes>
     </StartMode>
     <Scheduler ID="1">
@@ -5966,45 +5980,13 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                 <StartCondition>
                   <PrevAction />
                 </StartCondition>
-                <TotalVusersNumber>10</TotalVusersNumber>
+                <TotalVusersNumber>45</TotalVusersNumber>
               </Run>
               <Duration>
                 <StartCondition>
                   <PrevAction />
                 </StartCondition>
-                <RunFor>1320</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>10</Count>
-                  <Interval>1320</Interval>
-                </Batch>
-                <TotalVusersNumber>10</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>1200</RunFor>
-              </Duration>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>10</Count>
-                  <Interval>3960</Interval>
-                </Batch>
-                <TotalVusersNumber>10</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>3600</RunFor>
+                <RunFor>3720</RunFor>
               </Duration>
               <StopAll>
                 <StartCondition>

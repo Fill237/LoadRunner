@@ -1,0 +1,2 @@
+Search_Ticket.c(154): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MERR-26612]
+Search_Ticket.c(154): Continuing after Error -26366: "Text=A Session ID has been created and loaded into a cookie called MSO." not found for web_reg_find  	[MsgId: MERR-26366]

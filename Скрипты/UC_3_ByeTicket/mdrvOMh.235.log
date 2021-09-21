@@ -1,0 +1,6 @@
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" will be skipped - could not calculate the transaction time (duration=0,0032, think_time=0,0000, wasted_time=0,0060).	[MsgId: MMSG-16889]
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" will be skipped - could not calculate the transaction time (duration=0,0043, think_time=0,0000, wasted_time=0,0060).	[MsgId: MMSG-16889]
+ByeTicket.c(66): Continuing after Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MERR-26612]
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" will be skipped - could not calculate the transaction time (duration=0,0043, think_time=0,0000, wasted_time=0,0055).	[MsgId: MMSG-16889]
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" will be skipped - could not calculate the transaction time (duration=0,0026, think_time=0,0000, wasted_time=0,0039).	[MsgId: MMSG-16889]
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" will be skipped - could not calculate the transaction time (duration=0,0029, think_time=0,0000, wasted_time=0,0039).	[MsgId: MMSG-16889]

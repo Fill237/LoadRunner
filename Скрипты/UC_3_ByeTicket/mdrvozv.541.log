@@ -1,0 +1,2 @@
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" will be skipped - could not calculate the transaction time (duration=0,0027, think_time=0,0000, wasted_time=0,0076).	[MsgId: MMSG-16889]
+ByeTicket.c(193): Notify: Transaction "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" will be skipped - could not calculate the transaction time (duration=0,0027, think_time=0,0000, wasted_time=0,0076).	[MsgId: MMSG-16889]
